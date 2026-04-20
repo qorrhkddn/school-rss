@@ -281,13 +281,13 @@ def send_email(email_cfg: dict, subject: str, html_body: str):
     log.info(f"메일 발송 완료 → {email_cfg['recipient']}")
 
 
-def build_change_email(changes: list[dict]) -> str:
+def build_change_email(changes: list[dict], cfg: dict = None) -> str:
     """변경사항을 HTML 메일 본문으로 만든다."""
     rows = ""
     for c in changes:
         link = c.get("link", "")
         title = c.get("title", "")
-        cell = f'<a href="{link}">{title}</a>' if link else title
+        cell = f'<a href="{link}" style="color:#1a73e8;text-decoration:none;">{title}</a>' if link else title
         rows += f"""<tr>
             <td style="padding:6px 10px;border-bottom:1px solid #eee;font-size:13px;color:#888;">{c.get('post_date','')}</td>
             <td style="padding:6px 10px;border-bottom:1px solid #eee;font-size:13px;">
@@ -295,6 +295,20 @@ def build_change_email(changes: list[dict]) -> str:
                 {cell}
             </td>
         </tr>"""
+
+    # 피드 뷰어 링크
+    viewer_url = ""
+    if cfg and cfg.get("github", {}).get("repo"):
+        repo = cfg["github"]["repo"]
+        owner = repo.split("/")[0]
+        viewer_url = f"https://{owner}.github.io/{repo.split('/')[-1]}/"
+
+    viewer_link = ""
+    if viewer_url:
+        viewer_link = f"""
+        <p style="margin-top:16px;">
+            <a href="{viewer_url}" style="display:inline-block;padding:8px 20px;background:#2c5f2d;color:#fff;text-decoration:none;border-radius:6px;font-size:13px;font-weight:600;">전체 기록 보기</a>
+        </p>"""
 
     return f"""
     <div style="font-family:-apple-system,sans-serif;max-width:600px;margin:0 auto;">
@@ -306,6 +320,7 @@ def build_change_email(changes: list[dict]) -> str:
             </tr></thead>
             <tbody>{rows}</tbody>
         </table>
+        {viewer_link}
         <p style="margin-top:16px;font-size:11px;color:#999;">자동 발송 메일입니다.</p>
     </div>"""
 
@@ -337,7 +352,7 @@ def run_crawl(cfg: dict) -> list[dict]:
         if email_cfg.get("enabled") and email_cfg.get("username") and email_cfg.get("recipient"):
             try:
                 subject = f"[변경알림] {len(changes)}건 새 글 감지"
-                body = build_change_email(changes)
+                body = build_change_email(changes, cfg)
                 send_email(email_cfg, subject, body)
             except Exception as e:
                 log.error(f"메일 발송 실패: {e}")
