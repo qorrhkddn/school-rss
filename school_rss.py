@@ -3,6 +3,7 @@
 
 import hashlib
 import json
+import re
 import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -101,6 +102,14 @@ SESSION.headers.update({
 })
 
 
+def parse_date(raw: str) -> str:
+    """'등록일2024.04.03' 같은 형식에서 '2024-04-03'을 추출한다."""
+    m = re.search(r"(\d{4})\.(\d{2})\.(\d{2})", raw)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    return ""
+
+
 def ensure_dirs():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -195,6 +204,7 @@ def check_changes(state: dict) -> list[dict]:
                     "title": item["title"],
                     "link": item["link"],
                     "date": item.get("date", ""),
+                    "post_date": parse_date(item.get("date", "")),
                     "detected_at": now,
                 })
 
@@ -222,6 +232,7 @@ def check_changes(state: dict) -> list[dict]:
                 "title": f"[페이지 변경] {name}",
                 "link": url,
                 "date": "",
+                "post_date": datetime.now(KST).strftime("%Y-%m-%d"),
                 "detected_at": now,
             })
 
@@ -235,15 +246,18 @@ def generate_rss(changes: list[dict], existing_items: list[dict] | None = None):
     """RSS 2.0 XML 피드를 생성한다."""
     all_items = (existing_items or []) + changes
 
-    # 최근 6개월 이내 항목만 유지
-    six_months_ago = (datetime.now(KST) - timedelta(days=180)).isoformat()
+    # 최근 6개월 이내 항목만 유지 (게시 등록일 기준)
+    six_months_ago = (datetime.now(KST) - timedelta(days=180)).strftime("%Y-%m-%d")
     all_items = [
         item for item in all_items
-        if item.get("detected_at", "") >= six_months_ago
+        if (item.get("post_date") or item.get("detected_at", "")[:10]) >= six_months_ago
     ]
 
-    # 최신순 정렬
-    all_items.sort(key=lambda x: x.get("detected_at", ""), reverse=True)
+    # 게시 등록일 기준 최신순 정렬
+    all_items.sort(
+        key=lambda x: x.get("post_date") or x.get("detected_at", "")[:10],
+        reverse=True,
+    )
 
     rss = Element("rss", version="2.0")
     channel = SubElement(rss, "channel")

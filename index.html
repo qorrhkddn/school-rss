@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>관곡초등학교 변경 추적</title>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, 'Pretendard', sans-serif; background: #f5f5f5; color: #333; }
+  .header { background: #2c5f2d; color: #fff; padding: 2rem; text-align: center; }
+  .header h1 { font-size: 1.5rem; margin-bottom: .3rem; }
+  .header p { font-size: .85rem; opacity: .8; }
+  .controls { max-width: 900px; margin: 1.2rem auto .8rem; padding: 0 1rem; display: flex; gap: .6rem; flex-wrap: wrap; align-items: center; }
+  .controls input, .controls select { padding: .5rem .7rem; border: 1px solid #ccc; border-radius: 6px; font-size: .9rem; }
+  .controls input { flex: 1; min-width: 180px; }
+  .controls select { min-width: 140px; }
+  .rss-link { margin-left: auto; font-size: .85rem; color: #e67e22; text-decoration: none; font-weight: 600; }
+  .rss-link:hover { text-decoration: underline; }
+  .feed { max-width: 900px; margin: 0 auto; padding: 0 1rem 2rem; }
+  .item { background: #fff; border-radius: 8px; padding: 1rem 1.2rem; margin-bottom: .6rem; box-shadow: 0 1px 3px rgba(0,0,0,.08); display: flex; gap: 1rem; align-items: baseline; }
+  .item:hover { box-shadow: 0 2px 8px rgba(0,0,0,.12); }
+  .date { flex-shrink: 0; font-size: .8rem; color: #888; min-width: 80px; }
+  .badge { display: inline-block; font-size: .7rem; padding: .15rem .5rem; border-radius: 4px; background: #e8f5e9; color: #2e7d32; font-weight: 600; white-space: nowrap; margin-right: .4rem; }
+  .title a { color: #333; text-decoration: none; font-size: .95rem; }
+  .title a:hover { color: #2c5f2d; text-decoration: underline; }
+  .empty { text-align: center; padding: 3rem; color: #999; }
+  .stats { max-width: 900px; margin: 0 auto; padding: .5rem 1rem; font-size: .8rem; color: #888; }
+  @media (max-width: 600px) {
+    .item { flex-direction: column; gap: .3rem; }
+    .date { min-width: auto; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>관곡초등학교 변경 추적</h1>
+  <p>게시판 업데이트를 자동으로 수집합니다</p>
+</div>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="검색..." oninput="filterItems()">
+  <select id="boardFilter" onchange="filterItems()">
+    <option value="">전체 게시판</option>
+  </select>
+  <a class="rss-link" href="feed.xml">RSS 구독</a>
+</div>
+
+<div class="stats" id="stats"></div>
+<div class="feed" id="feed">
+  <div class="empty">피드를 불러오는 중...</div>
+</div>
+
+<script>
+let allItems = [];
+
+async function loadFeed() {
+  try {
+    const resp = await fetch('feed.xml');
+    const text = await resp.text();
+    const xml = new DOMParser().parseFromString(text, 'text/xml');
+    const items = xml.querySelectorAll('item');
+    const boards = new Set();
+
+    allItems = Array.from(items).map(item => {
+      const rawTitle = item.querySelector('title')?.textContent || '';
+      const match = rawTitle.match(/^\[(.+?)\]\s*(.+)$/);
+      const board = match ? match[1] : '';
+      const title = match ? match[2] : rawTitle;
+      const link = item.querySelector('link')?.textContent || '';
+      const desc = item.querySelector('description')?.textContent || '';
+      const dateMatch = desc.match(/감지:\s*(\d{4}-\d{2}-\d{2})/);
+
+      // post_date from title pattern or pubDate
+      const pubDate = item.querySelector('pubDate')?.textContent || '';
+      // Try to extract post date from description
+      const postDateMatch = rawTitle.match(/\d{4}\.\d{2}\.\d{2}/);
+
+      if (board) boards.add(board);
+
+      return { board, title, link, date: dateMatch ? dateMatch[1] : pubDate.slice(0, 10), rawTitle };
+    });
+
+    // populate board filter
+    const select = document.getElementById('boardFilter');
+    Array.from(boards).sort().forEach(b => {
+      const opt = document.createElement('option');
+      opt.value = b;
+      opt.textContent = b;
+      select.appendChild(opt);
+    });
+
+    renderItems(allItems);
+  } catch (e) {
+    document.getElementById('feed').innerHTML = '<div class="empty">피드를 불러올 수 없습니다.</div>';
+  }
+}
+
+function filterItems() {
+  const q = document.getElementById('search').value.toLowerCase();
+  const board = document.getElementById('boardFilter').value;
+  const filtered = allItems.filter(item => {
+    if (board && item.board !== board) return false;
+    if (q && !item.rawTitle.toLowerCase().includes(q) && !item.board.toLowerCase().includes(q)) return false;
+    return true;
+  });
+  renderItems(filtered);
+}
+
+function renderItems(items) {
+  const feed = document.getElementById('feed');
+  document.getElementById('stats').textContent = `총 ${items.length}건`;
+
+  if (!items.length) {
+    feed.innerHTML = '<div class="empty">표시할 항목이 없습니다.</div>';
+    return;
+  }
+
+  feed.innerHTML = items.map(item => `
+    <div class="item">
+      <span class="date">${item.date}</span>
+      <div class="title">
+        <span class="badge">${item.board}</span>
+        ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>` : item.title}
+      </div>
+    </div>
+  `).join('');
+}
+
+loadFeed();
+</script>
+</body>
+</html>
