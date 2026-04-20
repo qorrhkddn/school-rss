@@ -284,13 +284,16 @@ def generate_rss(changes: list[dict], existing_items: list[dict] | None = None):
         if item_data.get("link"):
             SubElement(item, "link").text = item_data["link"]
         SubElement(item, "description").text = (
-            f"게시판: {board} | 감지: {item_data.get('detected_at', '')}"
+            f"게시판: {board} | 등록일: {item_data.get('post_date', '')}"
         )
         SubElement(item, "guid", isPermaLink="false").text = hashlib.md5(
             json.dumps(item_data, sort_keys=True).encode()
         ).hexdigest()
-        if item_data.get("detected_at"):
-            SubElement(item, "pubDate").text = item_data["detected_at"]
+        post_date = item_data.get("post_date", "")
+        if post_date:
+            SubElement(item, "pubDate").text = post_date
+        elif item_data.get("detected_at"):
+            SubElement(item, "pubDate").text = item_data["detected_at"][:10]
 
     indent(rss, space="  ")
     tree = ElementTree(rss)

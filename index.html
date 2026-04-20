@@ -74,12 +74,10 @@ async function loadFeed() {
 
       // post_date from title pattern or pubDate
       const pubDate = item.querySelector('pubDate')?.textContent || '';
-      // Try to extract post date from description
-      const postDateMatch = rawTitle.match(/\d{4}\.\d{2}\.\d{2}/);
 
       if (board) boards.add(board);
 
-      return { board, title, link, date: dateMatch ? dateMatch[1] : pubDate.slice(0, 10), rawTitle };
+      return { board, title, link, date: pubDate || '', rawTitle };
     });
 
     // populate board filter
