@@ -59,7 +59,7 @@ def scheduled_crawl():
 
 def gh_api(gh_cfg: dict, method: str, path: str, json_data: dict = None) -> dict:
     """GitHub REST API 호출 헬퍼."""
-    url = f"https://api.github.com/repos/{gh_cfg['repo']}/{path}"
+    url = f"https://api.github.com/repos/{gh_cfg['repo']}/{path}".rstrip("/")
     headers = {
         "Authorization": f"token {gh_cfg['token']}",
         "Accept": "application/vnd.github.v3+json",
