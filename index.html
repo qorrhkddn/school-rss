@@ -24,6 +24,8 @@
   .badge { display: inline-block; font-size: .7rem; padding: .15rem .5rem; border-radius: 4px; background: #e8f5e9; color: #2e7d32; font-weight: 600; white-space: nowrap; margin-right: .4rem; }
   .title a { color: #333; text-decoration: none; font-size: .95rem; }
   .title a:hover { color: #2c5f2d; text-decoration: underline; }
+  .item.read { opacity: .45; }
+  .item.read .badge { background: #eee; color: #999; }
   .empty { text-align: center; padding: 3rem; color: #999; }
   .stats { max-width: 900px; margin: 0 auto; padding: .5rem 1rem; font-size: .8rem; color: #888; }
   @media (max-width: 600px) {
@@ -44,6 +46,7 @@
   <select id="boardFilter" onchange="filterItems()">
     <option value="">전체 게시판</option>
   </select>
+  <button id="markAllRead" onclick="markAllRead()" style="padding:.4rem .7rem;border:1px solid #ccc;border-radius:6px;font-size:.8rem;cursor:pointer;background:#fff;">전체 읽음</button>
   <a class="rss-link" href="feed.xml">RSS 구독</a>
 </div>
 
@@ -54,6 +57,31 @@
 
 <script>
 let allItems = [];
+const STORAGE_KEY = 'school-rss-read';
+
+function getReadSet() {
+  try { return new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')); }
+  catch { return new Set(); }
+}
+
+function saveReadSet(s) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify([...s]));
+}
+
+function markRead(id) {
+  const s = getReadSet();
+  s.add(id);
+  saveReadSet(s);
+  const el = document.querySelector(`[data-id="${id}"]`);
+  if (el) el.classList.add('read');
+}
+
+function markAllRead() {
+  const s = getReadSet();
+  allItems.forEach(i => s.add(i.guid));
+  saveReadSet(s);
+  document.querySelectorAll('.item').forEach(el => el.classList.add('read'));
+}
 
 async function loadFeed() {
   try {
@@ -69,15 +97,12 @@ async function loadFeed() {
       const board = match ? match[1] : '';
       const title = match ? match[2] : rawTitle;
       const link = item.querySelector('link')?.textContent || '';
-      const desc = item.querySelector('description')?.textContent || '';
-      const dateMatch = desc.match(/감지:\s*(\d{4}-\d{2}-\d{2})/);
-
-      // post_date from title pattern or pubDate
+      const guid = item.querySelector('guid')?.textContent || '';
       const pubDate = item.querySelector('pubDate')?.textContent || '';
 
       if (board) boards.add(board);
 
-      return { board, title, link, date: pubDate || '', rawTitle };
+      return { board, title, link, date: pubDate || '', rawTitle, guid };
     });
 
     // populate board filter
@@ -115,15 +140,18 @@ function renderItems(items) {
     return;
   }
 
-  feed.innerHTML = items.map(item => `
-    <div class="item">
+  const readSet = getReadSet();
+  feed.innerHTML = items.map(item => {
+    const isRead = readSet.has(item.guid);
+    return `
+    <div class="item${isRead ? ' read' : ''}" data-id="${item.guid}">
       <span class="date">${item.date}</span>
       <div class="title">
         <span class="badge">${item.board}</span>
-        ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>` : item.title}
+        ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener" onclick="markRead('${item.guid}')">${item.title}</a>` : item.title}
       </div>
-    </div>
-  `).join('');
+    </div>`;
+  }).join('');
 }
 
 loadFeed();
