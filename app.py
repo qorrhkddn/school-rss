@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """관곡초등학교 변경 추적 — 관리 서버 (Flask + APScheduler)"""
 
+import base64
 import json
 import logging
-import subprocess
 from pathlib import Path
 from threading import Lock
+
+import requests as http_req
 
 from apscheduler.schedulers.background import BackgroundScheduler
 from flask import Flask, jsonify, request, send_from_directory
@@ -53,37 +55,68 @@ def scheduled_crawl():
     log.info(f"=== 크롤링 완료: {len(changes)}건 변경 ===")
 
 
+def gh_api(gh_cfg: dict, method: str, path: str, json_data: dict = None) -> dict:
+    """GitHub REST API 호출 헬퍼."""
+    url = f"https://api.github.com/repos/{gh_cfg['repo']}/{path}"
+    headers = {
+        "Authorization": f"token {gh_cfg['token']}",
+        "Accept": "application/vnd.github.v3+json",
+    }
+    resp = http_req.request(method, url, headers=headers, json=json_data, timeout=30)
+    resp.raise_for_status()
+    return resp.json() if resp.content else {}
+
+
+def gh_upload_file(gh_cfg: dict, file_path: str, repo_path: str):
+    """GitHub API로 파일 하나를 업로드 (create or update)."""
+    content = Path(file_path).read_bytes()
+    encoded = base64.b64encode(content).decode()
+    branch = gh_cfg.get("branch", "main")
+
+    # 기존 파일의 sha 확인 (업데이트 시 필요)
+    sha = None
+    try:
+        existing = gh_api(gh_cfg, "GET", f"contents/{repo_path}?ref={branch}")
+        sha = existing.get("sha")
+    except http_req.HTTPError:
+        pass  # 파일이 없으면 새로 생성
+
+    data = {
+        "message": f"auto: update {repo_path}",
+        "content": encoded,
+        "branch": branch,
+    }
+    if sha:
+        data["sha"] = sha
+
+    gh_api(gh_cfg, "PUT", f"contents/{repo_path}", data)
+
+
 def git_push(gh_cfg: dict):
-    """feed.xml 등을 GitHub에 push."""
-    env = {"GIT_TERMINAL_PROMPT": "0"}
-    repo_url = f"https://x-access-token:{gh_cfg['token']}@github.com/{gh_cfg['repo']}.git"
+    """feed.xml을 GitHub API로 업로드."""
+    feed_path = BASE_DIR / "feed.xml"
+    if not feed_path.exists():
+        log.warning("feed.xml이 없어 push 건너뜀")
+        return
 
-    cmds = [
-        ["git", "add", "feed.xml", "data/"],
-        ["git", "diff", "--cached", "--quiet"],  # 변경 없으면 exit 1
-    ]
-    for cmd in cmds:
-        r = subprocess.run(cmd, cwd=BASE_DIR, capture_output=True, env=env)
-        if cmd[1] == "diff" and r.returncode == 0:
-            log.info("GitHub: 변경 없음, push 건너뜀")
-            return
+    gh_upload_file(gh_cfg, str(feed_path), "feed.xml")
+    log.info("GitHub API push 성공: feed.xml")
 
-    subprocess.run(
-        ["git", "commit", "-m", "auto: update feed"],
-        cwd=BASE_DIR, capture_output=True, env=env,
-    )
-    subprocess.run(
-        ["git", "remote", "set-url", "origin", repo_url],
-        cwd=BASE_DIR, capture_output=True, env=env,
-    )
-    result = subprocess.run(
-        ["git", "push", "origin", gh_cfg.get("branch", "main")],
-        cwd=BASE_DIR, capture_output=True, text=True, env=env,
-    )
-    if result.returncode == 0:
-        log.info("GitHub push 성공")
-    else:
-        log.error(f"GitHub push 실패: {result.stderr}")
+
+def gh_test_connection(gh_cfg: dict) -> dict:
+    """GitHub 토큰/repo 접근 테스트."""
+    try:
+        repo_info = gh_api(gh_cfg, "GET", "")
+        return {
+            "status": "ok",
+            "repo": repo_info.get("full_name"),
+            "private": repo_info.get("private"),
+            "permissions": repo_info.get("permissions", {}),
+        }
+    except http_req.HTTPError as e:
+        return {"status": "error", "message": f"HTTP {e.response.status_code}: {e.response.text[:200]}"}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
 
 
 def reschedule():
@@ -185,6 +218,17 @@ def test_email():
         return jsonify({"status": "ok"})
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)}), 500
+
+
+@app.route("/api/test-github", methods=["POST"])
+def test_github():
+    """GitHub 연결 테스트."""
+    cfg = load_config()
+    gh_cfg = cfg.get("github", {})
+    if not gh_cfg.get("token") or not gh_cfg.get("repo"):
+        return jsonify({"status": "error", "message": "GitHub 설정이 없습니다"}), 400
+    result = gh_test_connection(gh_cfg)
+    return jsonify(result), 200 if result["status"] == "ok" else 400
 
 
 # ── Main ──────────────────────────────────────────────

@@ -152,6 +152,9 @@
         <label>Token</label>
         <input type="password" id="cfgGhToken" placeholder="ghp_...">
       </div>
+      <div class="actions">
+        <button class="btn btn-outline btn-sm" onclick="testGithub()">연결 테스트</button>
+      </div>
     </div>
   </div>
 
@@ -355,6 +358,18 @@ async function triggerCrawl() {
   const r = await resp.json();
   toast(`크롤링 완료: ${r.changes}건 변경`);
   loadStatus();
+}
+
+async function testGithub() {
+  await saveConfig();
+  toast('GitHub 연결 테스트 중...');
+  const resp = await fetch('/api/test-github', { method: 'POST' });
+  const r = await resp.json();
+  if (r.status === 'ok') {
+    toast(`연결 성공! repo: ${r.repo}, push 권한: ${r.permissions?.push ? 'O' : 'X'}`);
+  } else {
+    toast(`실패: ${r.message}`);
+  }
 }
 
 async function testEmail() {
