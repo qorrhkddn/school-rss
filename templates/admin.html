@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>변경 추적 - 관리</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,'Pretendard',sans-serif; background:#f0f2f5; color:#333; }
+  .header { background:#2c5f2d; color:#fff; padding:1.5rem 2rem; display:flex; align-items:center; gap:1rem; }
+  .header h1 { font-size:1.3rem; }
+  .header nav { margin-left:auto; display:flex; gap:1rem; }
+  .header nav a { color:#fff; opacity:.8; text-decoration:none; font-size:.85rem; }
+  .header nav a:hover { opacity:1; }
+  .container { max-width:900px; margin:1.5rem auto; padding:0 1rem; }
+  .card { background:#fff; border-radius:10px; box-shadow:0 1px 4px rgba(0,0,0,.08); margin-bottom:1.2rem; overflow:hidden; }
+  .card-title { padding:1rem 1.3rem; font-weight:700; font-size:.95rem; border-bottom:1px solid #f0f0f0; display:flex; align-items:center; gap:.5rem; }
+  .card-body { padding:1.2rem 1.3rem; }
+  .status-bar { display:flex; gap:1.5rem; flex-wrap:wrap; }
+  .status-item { text-align:center; }
+  .status-item .label { font-size:.7rem; color:#888; text-transform:uppercase; }
+  .status-item .value { font-size:1.1rem; font-weight:700; color:#2c5f2d; margin-top:.2rem; }
+  .form-row { display:flex; gap:.8rem; margin-bottom:.8rem; flex-wrap:wrap; align-items:center; }
+  .form-row label { min-width:120px; font-size:.85rem; font-weight:600; color:#555; }
+  .form-row input, .form-row select { flex:1; min-width:180px; padding:.45rem .6rem; border:1px solid #ddd; border-radius:6px; font-size:.85rem; }
+  .form-row input:focus, .form-row select:focus { outline:none; border-color:#2c5f2d; }
+  .toggle { position:relative; width:44px; height:24px; cursor:pointer; }
+  .toggle input { display:none; }
+  .toggle .slider { position:absolute; inset:0; background:#ccc; border-radius:24px; transition:.2s; }
+  .toggle .slider::before { content:''; position:absolute; width:18px; height:18px; left:3px; top:3px; background:#fff; border-radius:50%; transition:.2s; }
+  .toggle input:checked + .slider { background:#2c5f2d; }
+  .toggle input:checked + .slider::before { transform:translateX(20px); }
+  .btn { padding:.5rem 1.2rem; border:none; border-radius:6px; font-size:.85rem; cursor:pointer; font-weight:600; }
+  .btn-primary { background:#2c5f2d; color:#fff; }
+  .btn-primary:hover { background:#1e4620; }
+  .btn-outline { background:#fff; color:#555; border:1px solid #ddd; }
+  .btn-outline:hover { background:#f5f5f5; }
+  .btn-danger { background:#d32f2f; color:#fff; }
+  .btn-sm { padding:.3rem .7rem; font-size:.75rem; }
+  .actions { display:flex; gap:.5rem; margin-top:1rem; flex-wrap:wrap; }
+  .site-block { border:1px solid #e0e0e0; border-radius:8px; margin-bottom:1rem; }
+  .site-header { padding:.8rem 1rem; background:#f8f9fa; font-weight:600; font-size:.9rem; display:flex; align-items:center; gap:.8rem; cursor:pointer; }
+  .site-header .arrow { transition:.2s; }
+  .site-header.open .arrow { transform:rotate(90deg); }
+  .board-list { padding:.5rem 1rem 1rem; display:none; }
+  .board-list.open { display:block; }
+  .board-row { display:flex; align-items:center; gap:.6rem; padding:.3rem 0; font-size:.83rem; border-bottom:1px solid #f5f5f5; }
+  .board-row:last-child { border:none; }
+  .board-row .name { flex:1; }
+  .board-row .ids { color:#999; font-size:.75rem; }
+  .toast { position:fixed; bottom:2rem; right:2rem; background:#333; color:#fff; padding:.8rem 1.5rem; border-radius:8px; font-size:.85rem; display:none; z-index:100; }
+  .toast.show { display:block; animation:fadeInOut 2.5s; }
+  @keyframes fadeInOut { 0%{opacity:0} 10%{opacity:1} 80%{opacity:1} 100%{opacity:0} }
+  .add-site { border:2px dashed #ccc; border-radius:8px; padding:1.5rem; text-align:center; color:#999; cursor:pointer; margin-bottom:1rem; }
+  .add-site:hover { border-color:#2c5f2d; color:#2c5f2d; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>변경 추적 관리</h1>
+  <nav>
+    <a href="/viewer">피드 보기</a>
+    <a href="/feed.xml">RSS</a>
+  </nav>
+</div>
+
+<div class="container">
+
+  <!-- 상태 -->
+  <div class="card">
+    <div class="card-title">상태</div>
+    <div class="card-body">
+      <div class="status-bar" id="statusBar">
+        <div class="status-item"><div class="label">마지막 체크</div><div class="value" id="stLastCheck">-</div></div>
+        <div class="status-item"><div class="label">다음 실행</div><div class="value" id="stNextRun">-</div></div>
+        <div class="status-item"><div class="label">스케줄러</div><div class="value" id="stScheduler">-</div></div>
+      </div>
+      <div class="actions">
+        <button class="btn btn-primary" onclick="triggerCrawl()">지금 크롤링</button>
+        <button class="btn btn-outline" onclick="loadStatus()">새로고침</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 크롤링 주기 -->
+  <div class="card">
+    <div class="card-title">크롤링 주기</div>
+    <div class="card-body">
+      <div class="form-row">
+        <label>주기 (시간)</label>
+        <input type="number" id="cfgInterval" min="1" max="168" style="max-width:100px;">
+      </div>
+    </div>
+  </div>
+
+  <!-- 메일 설정 -->
+  <div class="card">
+    <div class="card-title">메일 알림</div>
+    <div class="card-body">
+      <div class="form-row">
+        <label>사용</label>
+        <label class="toggle"><input type="checkbox" id="cfgEmailEnabled"><span class="slider"></span></label>
+      </div>
+      <div class="form-row">
+        <label>SMTP 서버</label>
+        <input type="text" id="cfgSmtpServer" placeholder="smtp.gmail.com">
+      </div>
+      <div class="form-row">
+        <label>포트</label>
+        <input type="number" id="cfgSmtpPort" placeholder="587" style="max-width:100px;">
+      </div>
+      <div class="form-row">
+        <label>계정 (이메일)</label>
+        <input type="text" id="cfgEmailUser" placeholder="you@gmail.com">
+      </div>
+      <div class="form-row">
+        <label>비밀번호</label>
+        <input type="password" id="cfgEmailPass" placeholder="앱 비밀번호">
+      </div>
+      <div class="form-row">
+        <label>수신자</label>
+        <input type="text" id="cfgEmailRecipient" placeholder="recipient@example.com">
+      </div>
+      <div class="form-row">
+        <label>발송자 이름</label>
+        <input type="text" id="cfgEmailSender" placeholder="관곡초 변경추적">
+      </div>
+      <div class="actions">
+        <button class="btn btn-outline btn-sm" onclick="testEmail()">테스트 메일 발송</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GitHub 설정 -->
+  <div class="card">
+    <div class="card-title">GitHub Pages 연동</div>
+    <div class="card-body">
+      <div class="form-row">
+        <label>사용</label>
+        <label class="toggle"><input type="checkbox" id="cfgGhEnabled"><span class="slider"></span></label>
+      </div>
+      <div class="form-row">
+        <label>Repo</label>
+        <input type="text" id="cfgGhRepo" placeholder="user/repo">
+      </div>
+      <div class="form-row">
+        <label>Branch</label>
+        <input type="text" id="cfgGhBranch" placeholder="main">
+      </div>
+      <div class="form-row">
+        <label>Token</label>
+        <input type="password" id="cfgGhToken" placeholder="ghp_...">
+      </div>
+    </div>
+  </div>
+
+  <!-- 사이트 / 게시판 관리 -->
+  <div class="card">
+    <div class="card-title">크롤링 대상 사이트</div>
+    <div class="card-body" id="sitesContainer">
+    </div>
+  </div>
+
+  <!-- 저장 버튼 -->
+  <div class="actions" style="margin-bottom:3rem;">
+    <button class="btn btn-primary" onclick="saveConfig()" style="padding:.7rem 2rem;">설정 저장</button>
+  </div>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+let config = {};
+
+function toast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast show';
+  setTimeout(() => t.className = 'toast', 2500);
+}
+
+async function loadConfig() {
+  const resp = await fetch('/api/config');
+  config = await resp.json();
+  renderConfig();
+}
+
+function renderConfig() {
+  document.getElementById('cfgInterval').value = config.crawl_interval_hours || 12;
+
+  const e = config.email || {};
+  document.getElementById('cfgEmailEnabled').checked = e.enabled || false;
+  document.getElementById('cfgSmtpServer').value = e.smtp_server || '';
+  document.getElementById('cfgSmtpPort').value = e.smtp_port || 587;
+  document.getElementById('cfgEmailUser').value = e.username || '';
+  document.getElementById('cfgEmailPass').value = e.password || '';
+  document.getElementById('cfgEmailRecipient').value = e.recipient || '';
+  document.getElementById('cfgEmailSender').value = e.sender_name || '';
+
+  const g = config.github || {};
+  document.getElementById('cfgGhEnabled').checked = g.enabled || false;
+  document.getElementById('cfgGhRepo').value = g.repo || '';
+  document.getElementById('cfgGhBranch').value = g.branch || 'main';
+  document.getElementById('cfgGhToken').value = g.token || '';
+
+  renderSites();
+}
+
+function renderSites() {
+  const container = document.getElementById('sitesContainer');
+  container.innerHTML = '';
+
+  (config.sites || []).forEach((site, si) => {
+    const block = document.createElement('div');
+    block.className = 'site-block';
+
+    const enabledCount = (site.boards || []).filter(b => b.enabled).length;
+    const totalCount = (site.boards || []).length;
+
+    block.innerHTML = `
+      <div class="site-header" onclick="toggleSite(this)">
+        <span class="arrow">&#9654;</span>
+        <label class="toggle" onclick="event.stopPropagation()">
+          <input type="checkbox" ${site.enabled ? 'checked' : ''} onchange="config.sites[${si}].enabled=this.checked">
+          <span class="slider"></span>
+        </label>
+        <span>${site.name}</span>
+        <span style="font-size:.75rem;color:#888;margin-left:auto;">${enabledCount}/${totalCount} 게시판</span>
+      </div>
+      <div class="board-list" id="boards-${si}">
+        <div class="form-row" style="margin-bottom:.6rem;">
+          <label>Base URL</label>
+          <input type="text" value="${site.base_url}" onchange="config.sites[${si}].base_url=this.value">
+        </div>
+        <div style="display:flex;gap:.5rem;margin-bottom:.6rem;">
+          <button class="btn btn-outline btn-sm" onclick="toggleAllBoards(${si},true)">전체 켜기</button>
+          <button class="btn btn-outline btn-sm" onclick="toggleAllBoards(${si},false)">전체 끄기</button>
+          <button class="btn btn-outline btn-sm" onclick="addBoard(${si})">+ 게시판 추가</button>
+          <button class="btn btn-danger btn-sm" onclick="removeSite(${si})" style="margin-left:auto;">사이트 삭제</button>
+        </div>
+        ${(site.boards || []).map((b, bi) => `
+          <div class="board-row">
+            <label class="toggle" style="transform:scale(.8);">
+              <input type="checkbox" ${b.enabled ? 'checked' : ''} onchange="config.sites[${si}].boards[${bi}].enabled=this.checked">
+              <span class="slider"></span>
+            </label>
+            <span class="name">${b.name}</span>
+            <span class="ids">bbsId:${b.bbsId}</span>
+            <button class="btn btn-outline btn-sm" onclick="removeBoard(${si},${bi})">X</button>
+          </div>
+        `).join('')}
+        ${(site.pages || []).length ? '<div style="margin-top:.6rem;font-size:.75rem;color:#888;font-weight:600;">페이지 변경 감지</div>' : ''}
+        ${(site.pages || []).map((p, pi) => `
+          <div class="board-row">
+            <label class="toggle" style="transform:scale(.8);">
+              <input type="checkbox" ${p.enabled ? 'checked' : ''} onchange="config.sites[${si}].pages[${pi}].enabled=this.checked">
+              <span class="slider"></span>
+            </label>
+            <span class="name">${p.name}</span>
+            <span class="ids" style="flex:2;">${p.url}</span>
+          </div>
+        `).join('')}
+      </div>
+    `;
+    container.appendChild(block);
+  });
+
+  // 사이트 추가 버튼
+  const addBtn = document.createElement('div');
+  addBtn.className = 'add-site';
+  addBtn.textContent = '+ 새 사이트 추가';
+  addBtn.onclick = addSite;
+  container.appendChild(addBtn);
+}
+
+function toggleSite(el) {
+  el.classList.toggle('open');
+  const list = el.nextElementSibling;
+  list.classList.toggle('open');
+}
+
+function toggleAllBoards(si, val) {
+  config.sites[si].boards.forEach(b => b.enabled = val);
+  renderSites();
+}
+
+function addBoard(si) {
+  const name = prompt('게시판 이름:');
+  if (!name) return;
+  const bbsId = prompt('bbsId:');
+  if (!bbsId) return;
+  const mi = prompt('mi (선택):') || '';
+  config.sites[si].boards.push({ name, bbsId, mi, enabled: true });
+  renderSites();
+}
+
+function removeBoard(si, bi) {
+  if (!confirm(`"${config.sites[si].boards[bi].name}" 게시판을 삭제할까요?`)) return;
+  config.sites[si].boards.splice(bi, 1);
+  renderSites();
+}
+
+function addSite() {
+  const name = prompt('사이트 이름:');
+  if (!name) return;
+  const base_url = prompt('Base URL (예: https://example.kr/school):');
+  if (!base_url) return;
+  config.sites.push({ name, base_url, enabled: true, boards: [], pages: [] });
+  renderSites();
+}
+
+function removeSite(si) {
+  if (!confirm(`"${config.sites[si].name}" 사이트를 삭제할까요?`)) return;
+  config.sites.splice(si, 1);
+  renderSites();
+}
+
+function collectConfig() {
+  config.crawl_interval_hours = parseInt(document.getElementById('cfgInterval').value) || 12;
+  config.email = {
+    enabled: document.getElementById('cfgEmailEnabled').checked,
+    smtp_server: document.getElementById('cfgSmtpServer').value,
+    smtp_port: parseInt(document.getElementById('cfgSmtpPort').value) || 587,
+    username: document.getElementById('cfgEmailUser').value,
+    password: document.getElementById('cfgEmailPass').value,
+    recipient: document.getElementById('cfgEmailRecipient').value,
+    sender_name: document.getElementById('cfgEmailSender').value,
+  };
+  config.github = {
+    enabled: document.getElementById('cfgGhEnabled').checked,
+    repo: document.getElementById('cfgGhRepo').value,
+    branch: document.getElementById('cfgGhBranch').value,
+    token: document.getElementById('cfgGhToken').value,
+  };
+  return config;
+}
+
+async function saveConfig() {
+  const cfg = collectConfig();
+  const resp = await fetch('/api/config', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(cfg),
+  });
+  const r = await resp.json();
+  if (r.status === 'ok') toast('설정이 저장되었습니다');
+  else toast('저장 실패');
+}
+
+async function triggerCrawl() {
+  toast('크롤링 실행 중...');
+  const resp = await fetch('/api/crawl', { method: 'POST' });
+  const r = await resp.json();
+  toast(`크롤링 완료: ${r.changes}건 변경`);
+  loadStatus();
+}
+
+async function testEmail() {
+  await saveConfig();
+  toast('테스트 메일 발송 중...');
+  const resp = await fetch('/api/test-email', { method: 'POST' });
+  const r = await resp.json();
+  toast(r.status === 'ok' ? '메일 발송 성공!' : `실패: ${r.message}`);
+}
+
+async function loadStatus() {
+  try {
+    const resp = await fetch('/api/status');
+    const s = await resp.json();
+    document.getElementById('stLastCheck').textContent = s.last_check ? s.last_check.slice(0, 16).replace('T', ' ') : '-';
+    document.getElementById('stNextRun').textContent = s.next_run ? s.next_run.slice(0, 16).replace('T', ' ') : '-';
+    document.getElementById('stScheduler').textContent = s.scheduler_running ? '실행 중' : '중지';
+  } catch {}
+}
+
+loadConfig();
+loadStatus();
+</script>
+</body>
+</html>

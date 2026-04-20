@@ -1,0 +1,13 @@
+services:
+  school-rss:
+    build: .
+    container_name: school-rss
+    restart: unless-stopped
+    ports:
+      - "5100:5000"
+    volumes:
+      - ./config.json:/app/config.json
+      - ./data:/app/data
+      - ./feed.xml:/app/feed.xml
+    environment:
+      - TZ=Asia/Seoul

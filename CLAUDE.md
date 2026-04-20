@@ -1,45 +1,76 @@
 # school-rss
 
-관곡초등학교(https://gwan-gok-e.goeyi.kr/gwan-gok-e/main.do) 웹사이트 변경 추적 및 RSS 피드 생성기.
+웹사이트 변경 추적 및 RSS 피드 생성기. 다중 사이트 지원, 메일 알림, 관리 UI 포함.
 
 ## 구조
 
 ```
-school_rss.py      # 크롤러 + RSS 생성 (메인 스크립트)
-index.html         # 웹 뷰어 (GitHub Pages로 서빙)
-feed.xml           # 생성된 RSS 2.0 피드
-data/state.json    # 마지막 체크 상태 (글 ID 해시, 페이지 해시)
-data/history.json  # 변경 이력 (RSS 항목 원본)
+app.py                  # Flask 웹서버 (관리 UI + API + 스케줄러)
+school_rss.py           # 크롤러 + RSS 생성 + 메일 발송 (라이브러리)
+config.json             # 모든 설정 (사이트, 메일, GitHub, 주기)
+index.html              # 피드 뷰어 (GitHub Pages 서빙)
+templates/admin.html    # 관리 페이지 (Docker에서 서빙)
+feed.xml                # 생성된 RSS 2.0 피드
+data/state.json         # 마지막 체크 상태
+data/history.json       # 변경 이력
+Dockerfile              # Docker 이미지
+docker-compose.yml      # Synology NAS 배포용
+```
+
+## 아키텍처
+
+```
+GitHub Pages (정적)          Synology NAS (Docker)
+┌─────────────────┐         ┌──────────────────────┐
+│ index.html      │         │ app.py (Flask:5000)   │
+│ feed.xml        │ ← push  │  ├ 관리 UI (:5100)    │
+│                 │         │  ├ APScheduler 주기실행│
+│                 │         │  ├ 크롤링 → feed.xml   │
+│                 │         │  └ 변경 시 메일 발송   │
+└─────────────────┘         └──────────────────────┘
 ```
 
 ## 규칙
 
+### config.json 구조
+- `crawl_interval_hours`: 크롤링 주기 (시간)
+- `email`: SMTP 설정 (server, port, username, password, recipient, sender_name, enabled)
+- `github`: Pages 연동 (repo, branch, token, enabled)
+- `sites[]`: 크롤링 대상 사이트 배열
+  - 각 사이트: `name`, `base_url`, `enabled`, `boards[]`, `pages[]`
+  - 각 게시판: `name`, `bbsId`, `mi`, `enabled`
+- 게시판/사이트 추가/삭제는 관리 UI 또는 config.json 직접 편집
+
 ### 크롤링
-- 대상: `BOARDS` dict에 정의된 53개 게시판 + `PAGES` dict의 3개 페이지
-- 게시판은 `selectNttList.do?bbsId=` 로 조회, 글 링크는 `data-id` 속성에서 `nttSn` 추출하여 `selectNttInfo.do` URL 생성
-- 새 게시판 추가 시 `BOARDS` dict에 `bbsId`와 `mi` 추가 + `index.html`의 펼침 목록에도 반영
+- 게시판: `selectNttList.do?bbsId=` 조회, `data-id` 속성에서 `nttSn` 추출 → `selectNttInfo.do` URL 생성
 - 서버 부하 방지: 게시판 간 0.5초, 페이지 간 1초 sleep
+- `run_crawl(cfg)` 함수로 app.py와 standalone 모두에서 호출 가능
 
 ### 날짜
-- 게시글 등록일 형식: `등록일2025.04.17` → `parse_date()`로 `2025-04-17` 추출
-- RSS `pubDate`, HTML 날짜 표시, 6개월 필터, 정렬 모두 **게시 등록일 기준** (감지 시각 아님)
-- 페이지 변경 항목은 감지일을 post_date로 사용
+- 게시글 등록일: `등록일2025.04.17` → `parse_date()` → `2025-04-17`
+- RSS pubDate, 필터, 정렬 모두 **게시 등록일 기준**
+- 6개월 이내 항목만 유지
 
-### RSS 피드
-- 최근 6개월 이내 항목만 유지 (게시 등록일 기준)
-- 최신순 정렬
-- `feed.xml`로 출력
+### 메일 알림
+- 변경 감지 시 HTML 메일 자동 발송 (email.enabled=true일 때)
+- `send_email()` / `build_change_email()` 함수
+- 관리 UI에서 테스트 메일 발송 가능
 
-### HTML 뷰어 (index.html)
-- feed.xml을 fetch하여 클라이언트에서 렌더링
-- 검색, 게시판 필터, 읽음 상태 추적 (localStorage)
-- 크롤링 대상 게시판 목록을 펼침(`<details>`)으로 표시
-- 최종 업데이트 시각 헤더에 표시
+### 관리 페이지 (templates/admin.html)
+- Flask 서버의 `/` 경로로 접근
+- API: `/api/config` (GET/POST), `/api/crawl` (POST), `/api/status` (GET), `/api/test-email` (POST)
+- 비밀번호/토큰은 API 응답에서 마스킹, 저장 시 마스킹 값이면 기존 값 유지
 
-### 배포
-- GitHub Pages (public repo): https://qorrhkddn.github.io/school-rss/
-- `.github/workflows/pages.yml`로 push 시 자동 배포
-- crontab으로 12시간 간격(08:23, 20:23) 실행 후 자동 commit & push
+### Docker 배포 (Synology NAS)
+- `docker compose up -d` 로 실행
+- 포트: 5100 (호스트) → 5000 (컨테이너)
+- Volume: config.json, data/, feed.xml
+- TZ=Asia/Seoul
+
+### GitHub Pages 배포
+- Public repo: https://qorrhkddn.github.io/school-rss/
+- `.github/workflows/pages.yml` — push 시 자동 배포
+- Docker 컨테이너가 크롤링 후 자동 git push (github.enabled=true일 때)
 
 ## Changelog
 
@@ -48,8 +79,11 @@ data/history.json  # 변경 이력 (RSS 항목 원본)
 - 53개 전체 게시판으로 확장
 - 게시 등록일 기준 6개월 필터 + 최신순 정렬
 - `data-id` 속성 기반 게시글 링크 생성
-- index.html 웹 뷰어 추가 (검색, 필터, 읽음 상태)
-- pubDate를 게시 등록일로 변경
-- 최종 업데이트 시각 표시
-- 크롤링 대상 게시판 펼침 목록 추가
-- GitHub Pages 배포 + crontab(12h) 설정
+- index.html 웹 뷰어 (검색, 필터, 읽음 상태)
+- 크롤링 대상 게시판 펼침 목록
+- GitHub Pages + crontab 배포
+- **config.json 기반 다중 사이트 지원으로 리팩터링**
+- **Flask 관리 서버 (app.py) + 관리 UI (admin.html)**
+- **SMTP 메일 알림 (변경 감지 시 자동 발송)**
+- **Docker / docker-compose 지원 (Synology NAS)**
+- **APScheduler로 크롤링 주기 관리 (관리 UI에서 변경 가능)**
