@@ -264,9 +264,11 @@ def generate_rss(changes: list[dict], existing_items: list[dict] | None = None):
 
 def send_email(email_cfg: dict, subject: str, html_body: str):
     """SMTP로 메일을 발송한다."""
+    recipients = [r.strip() for r in email_cfg["recipient"].split(",") if r.strip()]
+
     msg = MIMEMultipart("alternative")
     msg["From"] = f"{email_cfg.get('sender_name', 'RSS')} <{email_cfg['username']}>"
-    msg["To"] = email_cfg["recipient"]
+    msg["To"] = ", ".join(recipients)
     msg["Subject"] = subject
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
@@ -274,7 +276,7 @@ def send_email(email_cfg: dict, subject: str, html_body: str):
     server.ehlo()
     server.starttls()
     server.login(email_cfg["username"], email_cfg["password"])
-    server.sendmail(email_cfg["username"], email_cfg["recipient"], msg.as_string())
+    server.sendmail(email_cfg["username"], recipients, msg.as_string())
     server.quit()
     log.info(f"메일 발송 완료 → {email_cfg['recipient']}")
 
