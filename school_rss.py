@@ -140,15 +140,21 @@ def fetch_board(bbs_id: str, count: int = 20) -> list[dict]:
     soup = BeautifulSoup(resp.text, "html.parser")
     items = []
 
-    # 학교 CMS 게시판은 보통 테이블 또는 리스트 형태
-    # 테이블 형태 파싱
     for row in soup.select("table tbody tr, div.bbs_list ul li, div.board_list ul li"):
-        link = row.select_one("a[href]")
+        # 제목 링크: .nttInfoBtn 클래스 + data-id 속성으로 글 번호 전달
+        link = row.select_one("a.nttInfoBtn, a[data-id], a[href]")
         if not link:
             continue
 
         title = link.get_text(strip=True)
-        href = link.get("href", "")
+        ntt_sn = link.get("data-id", "")
+
+        # data-id가 있으면 상세 URL 생성, 없으면 href 사용
+        if ntt_sn:
+            item_link = f"{BASE_URL}/na/ntt/selectNttInfo.do?mi=&bbsId={bbs_id}&nttSn={ntt_sn}"
+        else:
+            href = link.get("href", "")
+            item_link = href if href.startswith("http") else f"{BASE_URL}{href}" if href.startswith("/") else ""
 
         # 날짜 추출
         date_text = ""
@@ -159,7 +165,7 @@ def fetch_board(bbs_id: str, count: int = 20) -> list[dict]:
         if title:
             items.append({
                 "title": title,
-                "link": href if href.startswith("http") else f"{BASE_URL}{href}" if href.startswith("/") else "",
+                "link": item_link,
                 "date": date_text,
                 "id": hashlib.md5(f"{bbs_id}:{title}:{date_text}".encode()).hexdigest()[:12],
             })
