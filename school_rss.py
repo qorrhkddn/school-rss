@@ -16,14 +16,75 @@ BASE_URL = "https://gwan-gok-e.goeyi.kr/gwan-gok-e"
 DATA_DIR = Path(__file__).parent / "data"
 RSS_FILE = Path(__file__).parent / "feed.xml"
 
-# 추적할 게시판 목록
+# 추적할 게시판 목록 (사이트 전체)
 BOARDS = {
-    "공지사항":       {"bbsId": "11818", "mi": "20550"},
-    "가정통신문":     {"bbsId": "11819", "mi": ""},
-    "학교앨범":       {"bbsId": "11822", "mi": "19569"},
-    "안전교육":       {"bbsId": "11823", "mi": ""},
-    "급식정보실":     {"bbsId": "11825", "mi": ""},
-    "칭찬축하합니다": {"bbsId": "11840", "mi": ""},
+    # 알림마당
+    "공지사항":                 {"bbsId": "11818", "mi": "20550"},
+    "가정통신문":               {"bbsId": "11819", "mi": "19565"},
+    "가정통신문(교육청)":       {"bbsId": "13879", "mi": "22143"},
+    "학교앨범":                 {"bbsId": "11822", "mi": "19569"},
+    "안전교육":                 {"bbsId": "11823", "mi": "19570"},
+    # 학생마당
+    "학교생활인권규정":         {"bbsId": "11844", "mi": "19602"},
+    "학생자치회":               {"bbsId": "12475", "mi": "20558"},
+    "칭찬축하합니다":           {"bbsId": "11840", "mi": "19597"},
+    "자유게시판":               {"bbsId": "11841", "mi": "19599"},
+    "비밀상담실":               {"bbsId": "11842", "mi": "19600"},
+    "관곡신문방송기자단":       {"bbsId": "12476", "mi": "20559"},
+    # 학부모마당
+    "학교운영위원회(운영)":     {"bbsId": "11849", "mi": "19609"},
+    "학교운영위원회(구성)":     {"bbsId": "11852", "mi": "19611"},
+    "학부모회(운영)":           {"bbsId": "12494", "mi": "20577"},
+    "학부모회(구성)":           {"bbsId": "12493", "mi": "20576"},
+    # 학교평가
+    "학교평가자료실":           {"bbsId": "11890", "mi": "19663"},
+    "관곡혁신교육자료실":       {"bbsId": "11883", "mi": "19652"},
+    # 행정정보 및 민원 - 학교재정공개
+    "예산결산공개":             {"bbsId": "11864", "mi": "19629"},
+    "업무추진비집행현황":       {"bbsId": "11867", "mi": "19632"},
+    "수의계약내역":             {"bbsId": "11871", "mi": "19636"},
+    "입찰공고":                 {"bbsId": "11874", "mi": "19639"},
+    "행정소식":                 {"bbsId": "11875", "mi": "19640"},
+    # 전자민원창구
+    "민원신청":                 {"bbsId": "11830", "mi": "19585"},
+    "시설개방공지":             {"bbsId": "12496", "mi": "20580"},
+    "시설개방현황":             {"bbsId": "12497", "mi": "20581"},
+    "시설개방신청":             {"bbsId": "11833", "mi": "19588"},
+    # 늘봄
+    "늘봄공지사항":             {"bbsId": "11897", "mi": "19674"},
+    "늘봄자료실":               {"bbsId": "11899", "mi": "19676"},
+    # 급식정보
+    "급식정보실":               {"bbsId": "11825", "mi": "19573"},
+    "영양상담및교육":           {"bbsId": "11826", "mi": "19576"},
+    # 보건실
+    "성고충상담":               {"bbsId": "12490", "mi": "20573"},
+    "보건정보실":               {"bbsId": "11824", "mi": "21308"},
+    # 도서관
+    "희망꿈터소식":             {"bbsId": "11900", "mi": "19678"},
+    # 초등돌봄교실
+    "돌봄교실공지":             {"bbsId": "11895", "mi": "19671"},
+    # 진로정보
+    "드림레터":                 {"bbsId": "11925", "mi": "19709"},
+    # 관곡유치원
+    "유치원공지사항":           {"bbsId": "11855", "mi": "19618"},
+    "유치원운영위(운영)":       {"bbsId": "11858", "mi": "19623"},
+    "유치원운영위(규정)":       {"bbsId": "11860", "mi": "19625"},
+    # 관곡소식
+    "관곡소식공지":             {"bbsId": "12474", "mi": "20552"},
+    "교무기획부":               {"bbsId": "12477", "mi": "20560"},
+    "진로연구부":               {"bbsId": "12478", "mi": "20561"},
+    "생활인권부":               {"bbsId": "12479", "mi": "20562"},
+    "정보체육부":               {"bbsId": "12480", "mi": "20563"},
+    "수업나눔방":               {"bbsId": "12481", "mi": "20564"},
+    "사이버신고센터":           {"bbsId": "12482", "mi": "20565"},
+    "관곡소식운영위(소개)":     {"bbsId": "12483", "mi": "20566"},
+    "관곡소식운영위(규정)":     {"bbsId": "12491", "mi": "20574"},
+    "관곡소식운영위(구성)":     {"bbsId": "12484", "mi": "20567"},
+    "관곡소식운영위(운영)":     {"bbsId": "12485", "mi": "20568"},
+    "관곡소식학부모회(소개)":   {"bbsId": "12486", "mi": "20569"},
+    "관곡소식학부모회(규정)":   {"bbsId": "12487", "mi": "20570"},
+    "관곡소식학부모회(구성)":   {"bbsId": "12488", "mi": "20571"},
+    "관곡소식학부모회(운영)":   {"bbsId": "12489", "mi": "20572"},
 }
 
 # 추적할 콘텐츠 페이지 (잘 안 바뀌지만 변경 감지용)
@@ -143,7 +204,7 @@ def check_changes(state: dict) -> list[dict]:
             "last_check": now,
             "count": len(items),
         }
-        time.sleep(1)  # 서버 부하 방지
+        time.sleep(0.5)  # 서버 부하 방지
 
     # 2) 페이지 변경 체크
     for name, url in PAGES.items():
@@ -173,8 +234,16 @@ def check_changes(state: dict) -> list[dict]:
 def generate_rss(changes: list[dict], existing_items: list[dict] | None = None):
     """RSS 2.0 XML 피드를 생성한다."""
     all_items = (existing_items or []) + changes
-    # 최근 100개만 유지
-    all_items = all_items[-100:]
+
+    # 최근 6개월 이내 항목만 유지
+    six_months_ago = (datetime.now(KST) - timedelta(days=180)).isoformat()
+    all_items = [
+        item for item in all_items
+        if item.get("detected_at", "") >= six_months_ago
+    ]
+
+    # 최신순 정렬
+    all_items.sort(key=lambda x: x.get("detected_at", ""), reverse=True)
 
     rss = Element("rss", version="2.0")
     channel = SubElement(rss, "channel")
@@ -187,7 +256,7 @@ def generate_rss(changes: list[dict], existing_items: list[dict] | None = None):
         "%a, %d %b %Y %H:%M:%S %z"
     )
 
-    for item_data in reversed(all_items):
+    for item_data in all_items:
         item = SubElement(channel, "item")
         board = item_data.get("board", "")
         title = item_data.get("title", "")

@@ -5,246 +5,606 @@
     <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/main.do</link>
     <description>관곡초등학교 웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 20 Apr 2026 10:09:29 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 10:15:35 +0900</lastBuildDate>
+    <item>
+      <title>[관곡소식학부모회(운영)] 학부모회 운영내용 안내</title>
+      <description>게시판: 관곡소식학부모회(운영) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">fec4961f2477aff2f54d869c74221af5</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[관곡소식학부모회(구성)] 학부모회 구성현황</title>
+      <description>게시판: 관곡소식학부모회(구성) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">82402933a8ae86345fe295df86b480a4</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[관곡소식학부모회(규정)] 관곡초등학교 학부모회 규정(2020) 안내</title>
+      <description>게시판: 관곡소식학부모회(규정) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">80aca76770b6bb468558d3a09cb3fe26</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[관곡소식학부모회(규정)] 관곡초등학교 병설유치원 학부모회 규정(2020) 안내</title>
+      <description>게시판: 관곡소식학부모회(규정) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">a16513c83bf7defb0b1646d7c0e6ccd0</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[관곡소식학부모회(소개)] 경기도교육청 학교 학부모회 설치·운영에 관한 조례 안내</title>
+      <description>게시판: 관곡소식학부모회(소개) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">9e979516493f88b2befd5b7e1c776cf7</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[관곡소식학부모회(소개)] 학부모회란?</title>
+      <description>게시판: 관곡소식학부모회(소개) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">2a8c9fa6081ed39baaf2376e6c457838</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[진로연구부] [고1,2,3] 사관학교, 경찰대학 입학전형 정보(꿈진 자료)</title>
+      <description>게시판: 진로연구부 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">258d7a5bf1b0b69f7fc9ae9815fe4125</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[진로연구부] 미술계열 진학안내(꿈진)</title>
+      <description>게시판: 진로연구부 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">2906d61af6d0f29af168d7ac55af6333</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[진로연구부] 교육대학 진학관련 자료(꿈진)</title>
+      <description>게시판: 진로연구부 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">c5d0f1ae37f363a634de2dd4efd6773e</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[진로연구부] [고3] 2021학년도 세종대 입학안내 동영상 링크</title>
+      <description>게시판: 진로연구부 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">5977793a790852ec2dfb1ab461f5d6bb</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[진로연구부] [고3] 2021학년도 주요대학 온라인 입시전형 설명 링크 안내</title>
+      <description>게시판: 진로연구부 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">0b7382401eb4d1eddb3c602c90e87926</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[진로연구부] [고3] 학생 및 학부모 대상 출석대면 입시설명회(강남대, 경기대, 명지대, 상명대)</title>
+      <description>게시판: 진로연구부 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">1d836852e075d289349f963f457e43c5</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[진로연구부] [고3] 강남대학교 오픈캠퍼스 신청 안내</title>
+      <description>게시판: 진로연구부 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">34970b45e3cd44b94af0dc3b42363c6b</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[진로연구부] [고3] 경기대학교 1:1 맞춤형 상담안내</title>
+      <description>게시판: 진로연구부 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">d407c45a093809c31a69850577ab8b7a</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[진로연구부] [고1,2,3]2021학년도 DGIST 입시 홍보 프로그램 안내</title>
+      <description>게시판: 진로연구부 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">7b64a39bbe8783c743b8aeb60e18eb49</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[진로연구부] [고3] 2021학년도 국민대학교 전형안내 동영상 주소 안내</title>
+      <description>게시판: 진로연구부 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">001ec6d4cb94b79083b7087a2d00bba3</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원운영위(규정)] 2020학년도 관곡초병설유치원운영위원회 규정</title>
+      <description>게시판: 유치원운영위(규정) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">b0a572909d1391173ad27abb95b4fa74</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원운영위(규정)] 2023학년도 관곡초병설유치원운영위원회 규정</title>
+      <description>게시판: 유치원운영위(규정) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">75442a8b01bd0e28a99e7b7c877ca1c0</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원운영위(운영)] 2024학년도 제1회 관곡초병설유치원 운영위원회 개최 공고</title>
+      <description>게시판: 유치원운영위(운영) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">4aeb3392cf2274f287ee75e57f23da83</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원운영위(운영)] 2024학년도 제1회 관곡초병설유치원 운영위원회 심의 결과</title>
+      <description>게시판: 유치원운영위(운영) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">6fcae08cfea1056390bb3c4c491c5d26</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원운영위(운영)] 2024학년도 제2회 관곡초병설유치원 운영위원회 개최 공고</title>
+      <description>게시판: 유치원운영위(운영) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">27161a7e48f356d0e2e6f7e54846b6ea</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원운영위(운영)] 2024학년도 제2회 관곡초병설유치원 운영위원회 심의 결과</title>
+      <description>게시판: 유치원운영위(운영) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">593ee14aa8ebd1cf6880964638185997</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원운영위(운영)] 2024학년도 제3회 관곡초병설유치원 운영위원회 개최 공고</title>
+      <description>게시판: 유치원운영위(운영) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">c00fc9d3c7d7e2ead8d03da410e1f715</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원운영위(운영)] 2024학년도 제3회 관곡초병설유치원 운영위원회 심의 결과</title>
+      <description>게시판: 유치원운영위(운영) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">a522ba4e3c1608e1ba322a8919f6bfcb</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원운영위(운영)] [긴급]2024학년도 제4회 관곡초병설유치원 운영위원회 개최 공고</title>
+      <description>게시판: 유치원운영위(운영) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">09aaa50a40dcd1dbd877e1b3e4d85e57</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원운영위(운영)] 2024학년도 제4회 관곡초병설유치원 운영위원회 심의 결과</title>
+      <description>게시판: 유치원운영위(운영) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">d6b32bce5ddd7bddd181bfa61c1d3147</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원운영위(운영)] 2024학년도 제5회 관곡초병설유치원 운영위원회 개최 공고</title>
+      <description>게시판: 유치원운영위(운영) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">d01a3245828837b0ef4a15172b1d4d74</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원운영위(운영)] 2024학년도 제5회 관곡초병설유치원 운영위원회 심의 결과</title>
+      <description>게시판: 유치원운영위(운영) | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">09a760d2b8fccf64bc2de3007abaae5e</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 2024학년도 유치원 12월 방과후 과정 수익자 부담금 납부 안내 가정 통신문</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">9580f5445a470e9badb692fddcedc32f</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 2025학년도 관곡초등학교병설유치원 유아 추가모집 요강</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">91f01b3808b06def4b09f118404bc674</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 2024학년도 유치원 2학기 방과후 과정 수익자 부담금 정산내역 안내</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">c94944654db90c5247a114a76f829021</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 2024학년도 유치원평가 결과보고서</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">699acbdc9d94e93eb4ce3617e514738e</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 2025학년도 유치원 학급 편성 안내</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">fe6f51a164b0c1b4b0285cb9256af3aa</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 2025학년도 유치원 교외체험학습 신청서 외(결과서, 결석계)</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">66616cd308f91e10b30261355cba0ae8</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 제21대 대통령 선거일 임시공휴일에 따른 유치원 수업일수 변경 안내</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">f72f8bf4d6a1dd688576210877f07a58</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 2026학년도 유치원 유아모집 계획</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">25aacbc18eea78ad0022f36faf4343e5</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 2026학년도 유치원 원서</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">27dc257efb2fc0302d79f7873de5e3dc</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 2025학년도 유치원 평가 보고서</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">60b404d42452b73ba5e6712b69f9bc9f</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 관곡초등학교병설유치원 홍보 영상</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">d28452535845d21500169d9929c72337</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 25학년도 외부강사 행정정보 공동이용 및 성범죄 조회 동의서</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">6aad4facbd966b4d7e4676c955268abc</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[유치원공지사항] 관곡초등학교병설유치원 유아모집</title>
+      <description>게시판: 유치원공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">12c060540898a20c4b67332a505c0690</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[희망꿈터소식] 2025학년도 겨울방학 학교도서관 장서점검 운영 계획 안내</title>
+      <description>게시판: 희망꿈터소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">e4606856454bc036b41ba48fc364960c</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[희망꿈터소식] 2026년 3월 도서관 행사</title>
+      <description>게시판: 희망꿈터소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">4d1c72c2c7ad699aa548fd7bae46face</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[희망꿈터소식] 학교도서관 도서검색하는 방법 및 안내</title>
+      <description>게시판: 희망꿈터소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">73f479f01ecba6d56af1ca0c5c1deabf</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[희망꿈터소식] 2026학년도 1학기 추천도서목록 안내</title>
+      <description>게시판: 희망꿈터소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">c89c010856f15e0dafb1c058e3311b03</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[희망꿈터소식] 월별 책소개_3월</title>
+      <description>게시판: 희망꿈터소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">a43b5e27bae31c63d2d427332bdf5fb6</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[희망꿈터소식] 추천 그림책 목록</title>
+      <description>게시판: 희망꿈터소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">39b85fb1ad4083f0da5f7da819e01e3a</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[희망꿈터소식] 3월 소식지</title>
+      <description>게시판: 희망꿈터소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">1ffc882ae6fc6f63ec7072a959cdf212</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[희망꿈터소식] 4월 소식지</title>
+      <description>게시판: 희망꿈터소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">e0cb05a0dba384c9e49249f8e248ac87</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[희망꿈터소식] 월별 책소개_4월</title>
+      <description>게시판: 희망꿈터소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">5c20c6b460943861f1c394bbd2b431cc</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[희망꿈터소식] 추천 그림책 목록</title>
+      <description>게시판: 희망꿈터소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">bf5736a97d99e4ddab006cd2074993a8</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[보건정보실] 관곡 7~8월 보건 소식지</title>
+      <description>게시판: 보건정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">c18ad894adbd46dd36cd346b6efc1f4a</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[보건정보실] 관곡 9월 보건 소식지</title>
+      <description>게시판: 보건정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">9474834b32b22113ada894098cda3794</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[보건정보실] 관곡 10월 보건 소식지</title>
+      <description>게시판: 보건정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">23bee616ce822f6abbde699c5985c592</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[보건정보실] 관곡 11월 보건 소식지</title>
+      <description>게시판: 보건정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">f8f0d1bdb1646842001ec0f23c1b1e49</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[보건정보실] 관곡 12월 보건 소식지</title>
+      <description>게시판: 보건정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">29abea3ed7a2b856c9633ba9de7cf309</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[보건정보실] 신학기 감염병 예방 및 관리 안내</title>
+      <description>게시판: 보건정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">08009bfce2f624906aa763cd717a0a0a</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[보건정보실] 관곡 3월 보건 소식지</title>
+      <description>게시판: 보건정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">e9d286309e10de27b0dc1948e2899267</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[보건정보실] 미세먼지 대처요령 및 건강수칙</title>
+      <description>게시판: 보건정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">b30043c7a47a9c2ac1ea1c4ba08e8ff0</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[보건정보실] 관곡 4월 보건소식지</title>
+      <description>게시판: 보건정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">53e4d62ee557c180b401980e37695db9</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[보건정보실] 관곡초 1, 4학년 학생 정서 행동 특성 검사 안내</title>
+      <description>게시판: 보건정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">db00dc3224ef03a8f5b26f87b75d8828</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[영양상담및교육] 2025학년도 영양상담실 운영 안내</title>
+      <description>게시판: 영양상담및교육 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">6a4d806e639ecd4662652767e43bd7a2</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
+    <item>
+      <title>[영양상담및교육] 알고 먹으면 안전해요 (식품알레르기 함께 알아보기)</title>
+      <description>게시판: 영양상담및교육 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">93ba2bc29b59900c6e8bb8123d0a1e63</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
+    </item>
     <item>
       <title>[급식정보실] 2025년 10월 예정식단 및 영양소식</title>
-      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">09178108870cb555c08a96ba3984ed02</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">f6a8e06c5a97ca4cc822f5c5f539b0b1</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
       <title>[급식정보실] 2025년 11월 학교급식 원산지 표시 및 영양표시</title>
-      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">edc8d8bb22f9470fbe26eadfa1c05dde</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">3ed72bff21f993a3962720f9d470e916</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
       <title>[급식정보실] 2025년 11월 예정식단 및 영양소식</title>
-      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">204dcca99a60e6a41be9480f0381e2c2</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">93e6882d9aa1d9222b52f839566bdd18</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
       <title>[급식정보실] 2025년 4분기 교직원,학부모 영양 연수자료</title>
-      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">c8663477d7b000e4baa5e07d89a673ed</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">40d14d67fdf22c93f80cdced5299b009</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
       <title>[급식정보실] 2025년 12월 학교급식 영양표시제 및 원산지 안내</title>
-      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">9eeac126d666aee0c2773bbf4f27b5f7</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">dffaf8eccec68cf15b7aecc7e579f49b</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
       <title>[급식정보실] 2025년 12월 예정식단 및 영양소식</title>
-      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">c8d9e3c30e9f35d134522ef3835593ea</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">e6d0cb52b5af1ea030acd2c7903918cd</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
       <title>[급식정보실] 2026년 3월 학교급식 영양표시제 및 원산지 안내</title>
-      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">c3dcf649ac5105a452865d3e41eaf618</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">1974c72142b3c7e6f0c200cdc0cf1665</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
       <title>[급식정보실] 2026년 3월 예정식단 및 영양소식</title>
-      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">1752d720d0c403116c5ff57e6c32a49f</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">47a3be3c869d386fbfcd02ca61d5835d</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
       <title>[급식정보실] 2026년 4월 학교급식 영양표시제 및 원산지 안내</title>
-      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">ebdb4996f28f6d7c42b7f2c8a32a2d31</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">ba7052365eb0ccde492480092dfc42dd</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
       <title>[급식정보실] 2026년 4월 예정식단 및 영양소식</title>
-      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">70a184bd0be8d8effb454c1b4ef201d3</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <description>게시판: 급식정보실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">1f514220a3b63826b9419f4879a205c0</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[안전교육] 2019 관곡초등학교 안전계획</title>
-      <description>게시판: 안전교육 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">84db4ced89c0f309d09fd50ca2861e30</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄자료실] 2021학년도 방과후학교 부서별 계획안</title>
+      <description>게시판: 늘봄자료실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">87aa8b583ecba14b573f52dd432a9a0e</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[안전교육] 2020 관곡초등학교 안전계획</title>
-      <description>게시판: 안전교육 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">e43fd86bf3644c0b7814e4a7488bc8b0</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄자료실] 2023학년도 방과후학교 운영계획안</title>
+      <description>게시판: 늘봄자료실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">9e91669f5f50c0237cf553f39fb8a253</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[안전교육] 2020 관곡초등학교 안전계획(수정)</title>
-      <description>게시판: 안전교육 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">4f8311a17cd9e6bfe470408563cce3cd</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄자료실] 2025학년도 경기교육 늘봄.방과후학교분야 투약사회협약서</title>
+      <description>게시판: 늘봄자료실 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">b811dafb033888eaf19a192ea99f050a</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[안전교육] 2021 관곡초등학교 학교안전계획</title>
-      <description>게시판: 안전교육 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">333a1056f83e95aa7d2410b37c7831a1</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄공지사항] 2025학년도 제1분기 방과후학교 수강 신청 안내</title>
+      <description>게시판: 늘봄공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">47631526faf57d7daf787c6a8cbdf34d</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[안전교육] 2022 관곡초등학교 학교안전계획</title>
-      <description>게시판: 안전교육 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">7889beccbd2ae6dfd5d5bce2b01fb216</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄공지사항] 2025학년도 관곡초 방과후학교 운영계획</title>
+      <description>게시판: 늘봄공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">f68150312e26e40ac3663407430f82a1</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[안전교육] 2026 관곡초등학교 학교 안전 계획</title>
-      <description>게시판: 안전교육 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">5fe05cc92a2dff2482453db057e86530</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄공지사항] 2025학년도 초 1.2 맞춤형 프로그램 방학기간 운영 수요조사</title>
+      <description>게시판: 늘봄공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">e2e849cc7d174c690df07b47ae082049</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 청소년 사이버 도박 자진신고 기간 운영 안내</title>
-      <description>게시판: 가정통신문 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">c8e136d6b3ebefcffd598d962bdad869</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄공지사항] 2025학년도 제1분기 선택형 교육 운영자료</title>
+      <description>게시판: 늘봄공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">682a3789a70a066a04f177679667e30c</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 2025 학부모용 학교폭력 예방교육 소식지 4</title>
-      <description>게시판: 가정통신문 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">ea6b8e335ba97a8751faf1480da3753b</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄공지사항] ｢늘봄학교 프로그램 참여 현황 및 희망 수요 조사｣ 참여 요청</title>
+      <description>게시판: 늘봄공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">8e121c7601ce3fe096c4d87e5240f432</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 2026년 경기도용인교육지원청 학교폭력대책심의위원회 위원 위촉 공고</title>
-      <description>게시판: 가정통신문 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">e3bf23b22c052eaf0b47d8cb95af6eb2</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄공지사항] 2025학년도 여름방학기간 늘봄학교 일정 안내</title>
+      <description>게시판: 늘봄공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">e180ac0d8d501ba351d52fcaced6fcc6</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 2026년 경기도용인교육지원청 학교폭력전담조사관 위촉 공고</title>
-      <description>게시판: 가정통신문 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">d1a5b7968c1ecf65d2a5c7bdad8b13d0</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄공지사항] 2025학년도 늘봄학교 수업 교실 변경 안내</title>
+      <description>게시판: 늘봄공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">88168224186f9eaf46cd99b7a0db4b06</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 2026년 용인특례시 여성 청소년 생리용품 보편지원 신청 안내</title>
-      <description>게시판: 가정통신문 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">fbcbdd8a49e333bff50e2b78f8e2a88d</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄공지사항] 2025학년도 선택형 교육 3기 신청 안내</title>
+      <description>게시판: 늘봄공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">32f044a23c1dc238ab7f512c635c5907</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 경기도학교안전공제회 2026 학교안전대사 신청 모집 안내</title>
-      <description>게시판: 가정통신문 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">7e3bd67bc00c4c0610523fee103ecda3</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄공지사항] 2025학년도 늘봄학교  하반기 공개수업 일정안내</title>
+      <description>게시판: 늘봄공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">fc4b9d654e752874f73eca9c4d15c29a</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 미세먼지 대처요령 및 건강수칙 안내</title>
-      <description>게시판: 가정통신문 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">05a9ff1f737ec5b7655f42a4d2558f75</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[늘봄공지사항] 2025학년도 늘봄학교 하반기 만족도 설문 결과</title>
+      <description>게시판: 늘봄공지사항 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">d77ac216d34414c126c7a36ef3ff30d3</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 아토피 천식 안심학교 학부모 대상 알레르기 전문의 온라인 특강 안내</title>
-      <description>게시판: 가정통신문 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">582aa8061bc213902d660a8f852c40e8</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[시설개방신청] 학교시설 일시사용중지및 외부인출입제한</title>
+      <description>게시판: 시설개방신청 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">4fb8b9ac65b42cf28ee2ce8eee5c5663</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 1회용품 사용 줄이기 안내</title>
-      <description>게시판: 가정통신문 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">3b94de2b3fc6f4b7da9e12c702cf8f55</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[시설개방현황] 시설개방현황(4.1일자)</title>
+      <description>게시판: 시설개방현황 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">ccdef0a63242aa6caa9be43e424817eb</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 2,3,5,6학년 학생 소변 검사 안내</title>
-      <description>게시판: 가정통신문 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">6cb5e59a53c409080e094c51ef3dd865</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[시설개방현황] 시설개방현황(8.25일자)</title>
+      <description>게시판: 시설개방현황 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">ad5319f2a5d41b9f1a2c7d35ffe4c76d</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 노동절(5. 1.) 공휴일 지정에 따른 학사일정 변경 안내</title>
-      <description>게시판: 가정통신문 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">a4a8f928a9f8e78596ea27cd87d7c43f</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[시설개방현황] 시설개방현황(11.17일자)</title>
+      <description>게시판: 시설개방현황 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">6b46467f03e79ba4526cceb702991e31</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2025학년도 정기간행물(잡지) 과월호 무상 배포 안내장</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">c1f673d123519de890a55ba1fc03cd25</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[시설개방공지] 시설개방안내</title>
+      <description>게시판: 시설개방공지 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">6ff2b37d5b9629de8e60dc42a2a2afe3</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[공지사항] 관곡초 창호교체 및 드라이비트 개선공사 안내(2025.12.~2026.6.)</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">0ad752477dd829481f41ee5a39fbdfef</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[행정소식] 2025년 영상정보처리기기(CCTV) 설치·운영 계획</title>
+      <description>게시판: 행정소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">fdafb1daae11bb3c572f3773731f0710</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[공지사항] 관곡초 창호교체공사 관련 진행 상황 안내</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">caae19314dc1573e74408076e6863691</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[행정소식] 예산집행실명제 내역(석면제거사업)</title>
+      <description>게시판: 행정소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">a06705a14dc25fc01f8442f098a8ef9a</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2026학년도 관곡초 국.검(인)정 교과용도서 목록</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">d6927e30de325ccfc8ff19d8b52b1dad</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[행정소식] 공기정화장치 유지관리 점검 보고(24.8~25.2월)</title>
+      <description>게시판: 행정소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">487059b03de216ec4ab7f9f9c84eb6fe</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2026학년도 교육급여 및 교육비 지원 안내</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">17a445feef9baa2be5c170de4e010dc2</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[행정소식] 2025년 학교운동장 유해성 검사 결과 알림</title>
+      <description>게시판: 행정소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">0345d3547943ee11ac0bd44039190bb6</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[공지사항] ２０２６  교육활동 보호 예방교육 계획</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">9139d1008f6ed6db156abdbfaba5e21f</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[행정소식] 2025학년도 관곡초등학교 졸업앨범, 늘봄출결관리시스템, 학생 건강검진 개인정보처리 위탁 사실 알림</title>
+      <description>게시판: 행정소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">1416c018dfa0e3faf4600c74c7d600bc</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[공지사항] 관곡초등학교 학생생활규정 13차 개정(안) 의견 수렴 안내</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">9ad0e892d9793c8593b0d88c3d613f2b</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[행정소식] 예산집행실명제 내역 공개(2025년 반기 제3종시설물 정기안전점검 )</title>
+      <description>게시판: 행정소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">edf6a53a08e26e4166a4569960baba1f</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2026학년도 기초학력 협력강사 채용 공고</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">da528370b46ede45c86b96547c1c0f47</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[행정소식] 관곡초 및 관곡초병설유치원 놀이터 모레 기생충 및 기생충(란) 검사 결과 보고</title>
+      <description>게시판: 행정소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">b9d4294a16f0e39cc1562a51969c649b</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2026학년도 1학기 교사별 평가계획</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">506c1ef3f412aa8121e370c64189fb0a</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[행정소식] 예산집행실명제 내역 공개(2025년 반기 제3종시설물 정기안전점검 )</title>
+      <description>게시판: 행정소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">815d37ff1c18e3d7428653f8210b52b8</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2026 관곡초등학교 학생생활규정 13차 개정</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">308c0d3083b32c2ecbdf730c2766ba06</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
-    </item>
-    <item>
-      <title>[공지사항] 학교운영위원회 방청 신청서</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">a452b56a84776bd56c621b65fbe86a3c</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
-    </item>
-    <item>
-      <title>[공지사항] 2026학년도 학사일정 안내</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">1180e38c7113aebc7ae6833a3de199ec</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
-    </item>
-    <item>
-      <title>[공지사항] 2026학년 학생 출결 처리(결석신고서, 학교장허가체험학습신청서 등) 관련 증빙 서류 양식</title>
-      <description>게시판: 공지사항 | 감지: 2026-04-20T10:09:14.315123+09:00</description>
-      <guid isPermaLink="false">6dc25b764c90e8a1f5aabd61793adfa4</guid>
-      <pubDate>2026-04-20T10:09:14.315123+09:00</pubDate>
+      <title>[행정소식] 시청각실 의자 교체에 따른 물품 선정 결과 공개</title>
+      <description>게시판: 행정소식 | 감지: 2026-04-20T10:14:27.556576+09:00</description>
+      <guid isPermaLink="false">37f244509ba32b163e4d1cc98cb7f9f1</guid>
+      <pubDate>2026-04-20T10:14:27.556576+09:00</pubDate>
     </item>
   </channel>
 </rss>
