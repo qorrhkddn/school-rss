@@ -28,6 +28,14 @@
   .item.read .badge { background: #eee; color: #999; }
   .empty { text-align: center; padding: 3rem; color: #999; }
   .stats { max-width: 900px; margin: 0 auto; padding: .5rem 1rem; font-size: .8rem; color: #888; }
+  .board-info { max-width: 900px; margin: 0 auto 1rem; padding: 0 1rem; }
+  .board-info details { background: #fff; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  .board-info summary { padding: .8rem 1.2rem; cursor: pointer; font-size: .9rem; font-weight: 600; color: #555; }
+  .board-info summary:hover { color: #2c5f2d; }
+  .board-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: .3rem .8rem; padding: .5rem 1.2rem 1rem; }
+  .board-grid .cat { grid-column: 1 / -1; font-size: .75rem; font-weight: 700; color: #2c5f2d; margin-top: .5rem; padding-bottom: .2rem; border-bottom: 1px solid #e8f5e9; }
+  .board-grid .cat:first-child { margin-top: 0; }
+  .board-grid span { font-size: .8rem; color: #666; padding: .15rem 0; }
   @media (max-width: 600px) {
     .item { flex-direction: column; gap: .3rem; }
     .date { min-width: auto; }
@@ -49,6 +57,39 @@
   </select>
   <button id="markAllRead" onclick="markAllRead()" style="padding:.4rem .7rem;border:1px solid #ccc;border-radius:6px;font-size:.8rem;cursor:pointer;background:#fff;">전체 읽음</button>
   <a class="rss-link" href="feed.xml">RSS 구독</a>
+</div>
+
+<div class="board-info">
+  <details>
+    <summary>크롤링 대상 게시판 (53개)</summary>
+    <div class="board-grid">
+      <div class="cat">알림마당</div>
+      <span>공지사항</span><span>가정통신문</span><span>가정통신문(교육청)</span><span>학교앨범</span><span>안전교육</span>
+      <div class="cat">학생마당</div>
+      <span>학교생활인권규정</span><span>학생자치회</span><span>칭찬축하합니다</span><span>자유게시판</span><span>비밀상담실</span><span>관곡신문방송기자단</span>
+      <div class="cat">학부모마당</div>
+      <span>학교운영위원회(운영)</span><span>학교운영위원회(구성)</span><span>학부모회(운영)</span><span>학부모회(구성)</span>
+      <div class="cat">학교평가</div>
+      <span>학교평가자료실</span><span>관곡혁신교육자료실</span>
+      <div class="cat">행정정보 / 재정공개</div>
+      <span>예산결산공개</span><span>업무추진비집행현황</span><span>수의계약내역</span><span>입찰공고</span><span>행정소식</span>
+      <div class="cat">전자민원창구</div>
+      <span>민원신청</span><span>시설개방공지</span><span>시설개방현황</span><span>시설개방신청</span>
+      <div class="cat">늘봄</div>
+      <span>늘봄공지사항</span><span>늘봄자료실</span>
+      <div class="cat">급식 / 보건</div>
+      <span>급식정보실</span><span>영양상담및교육</span><span>성고충상담</span><span>보건정보실</span>
+      <div class="cat">도서관 / 돌봄 / 진로</div>
+      <span>희망꿈터소식</span><span>돌봄교실공지</span><span>드림레터</span>
+      <div class="cat">관곡유치원</div>
+      <span>유치원공지사항</span><span>유치원운영위(운영)</span><span>유치원운영위(규정)</span>
+      <div class="cat">관곡소식</div>
+      <span>관곡소식공지</span><span>교무기획부</span><span>진로연구부</span><span>생활인권부</span><span>정보체육부</span><span>수업나눔방</span><span>사이버신고센터</span>
+      <span>관곡소식운영위(소개)</span><span>관곡소식운영위(규정)</span><span>관곡소식운영위(구성)</span><span>관곡소식운영위(운영)</span>
+      <span>관곡소식학부모회(소개)</span><span>관곡소식학부모회(규정)</span><span>관곡소식학부모회(구성)</span><span>관곡소식학부모회(운영)</span>
+    </div>
+    <p style="padding:0 1.2rem 1rem;font-size:.75rem;color:#999;">+ 페이지 변경 감지: 메인페이지, 학교일정, 급식식단</p>
+  </details>
 </div>
 
 <div class="stats" id="stats"></div>
