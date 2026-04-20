@@ -1,751 +1,1437 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss version="2.0">
   <channel>
-    <title>관곡초등학교 변경 추적</title>
-    <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/main.do</link>
-    <description>관곡초등학교 웹사이트 게시판 및 페이지 변경사항</description>
+    <title>사이트 변경 추적</title>
+    <link />
+    <description>웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 20 Apr 2026 10:23:42 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 11:35:52 +0900</lastBuildDate>
     <item>
-      <title>[가정통신문(교육청)] 2026년 제3차 진로진학레시피 참가자 모집 홍보</title>
+      <title>[관곡초등학교/메인페이지] [페이지 변경] 메인페이지</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/main.do</link>
+      <description>사이트: 관곡초등학교 | 게시판: 메인페이지 | 등록일: 2026-04-20</description>
+      <guid isPermaLink="false">e9bc370039271e3cd9575af98546e468</guid>
+      <pubDate>2026-04-20</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/급식식단] [페이지 변경] 급식식단</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ad/fm/foodmenu/selectFoodMenuView.do?mi=19574</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식식단 | 등록일: 2026-04-20</description>
+      <guid isPermaLink="false">13fa2f0ae4be24756b3f10d81d989d9f</guid>
+      <pubDate>2026-04-20</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026년 제3차 진로진학레시피 참가자 모집 홍보</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1515813</link>
-      <description>게시판: 가정통신문(교육청) | 등록일: 2026-04-17</description>
-      <guid isPermaLink="false">5396ae3a496ded86de41863392f97857</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-04-17</description>
+      <guid isPermaLink="false">f3f010ab31d4d2cf3999fb753782593e</guid>
       <pubDate>2026-04-17</pubDate>
     </item>
     <item>
-      <title>[가정통신문(교육청)] [용인시가족센터] 2026 온가족보듬사업 상현도서관과 함께하는 교육문화프로그램 참여자 모집 안내</title>
+      <title>[관곡초등학교/가정통신문(교육청)] [용인시가족센터] 2026 온가족보듬사업 상현도서관과 함께하는 교육문화프로그램 참여자 모집 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1515609</link>
-      <description>게시판: 가정통신문(교육청) | 등록일: 2026-04-17</description>
-      <guid isPermaLink="false">8650dc2181fdbedfebafc2d2e1cf787b</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-04-17</description>
+      <guid isPermaLink="false">44d5e18bbc327d7c574c485ec729b889</guid>
       <pubDate>2026-04-17</pubDate>
     </item>
     <item>
-      <title>[보건정보실] 관곡초 1, 4학년 학생 정서 행동 특성 검사 안내</title>
+      <title>[관곡초등학교/보건정보실] 관곡초 1, 4학년 학생 정서 행동 특성 검사 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1515541</link>
-      <description>게시판: 보건정보실 | 등록일: 2026-04-17</description>
-      <guid isPermaLink="false">01cb864113bcd62101d18b1faf045eda</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2026-04-17</description>
+      <guid isPermaLink="false">f03363afd33ad637eee640caa46fc54d</guid>
       <pubDate>2026-04-17</pubDate>
     </item>
     <item>
-      <title>[가정통신문(교육청)] 2026 열.두.달. 교육활동 보호 프로젝트 "우리 선생님을 칭찬합니다."</title>
+      <title>[관곡초등학교/보건정보실] 관곡초 1, 4학년 학생 정서 행동 특성 검사 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1515541</link>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2026-04-17</description>
+      <guid isPermaLink="false">ed96febe45e8379c05cce8d7e169bc47</guid>
+      <pubDate>2026-04-17</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026 열.두.달. 교육활동 보호 프로젝트 "우리 선생님을 칭찬합니다."</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1515448</link>
-      <description>게시판: 가정통신문(교육청) | 등록일: 2026-04-16</description>
-      <guid isPermaLink="false">9f86745c93a5ca427834178ff93417d8</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-04-16</description>
+      <guid isPermaLink="false">1ad794421dc5e01d60f6ef3019e4f8cd</guid>
       <pubDate>2026-04-16</pubDate>
     </item>
     <item>
-      <title>[가정통신문(교육청)] 학생 마음건강 이해를 위한 학부모 온라인 교육 안내</title>
+      <title>[관곡초등학교/가정통신문(교육청)] 학생 마음건강 이해를 위한 학부모 온라인 교육 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1515414</link>
-      <description>게시판: 가정통신문(교육청) | 등록일: 2026-04-16</description>
-      <guid isPermaLink="false">3635b9a2c30d614d089ec5ebfb514632</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-04-16</description>
+      <guid isPermaLink="false">f58af19b26fc8aae72833264cba96c4d</guid>
       <pubDate>2026-04-16</pubDate>
     </item>
     <item>
-      <title>[가정통신문(교육청)] 픽시자전거 위험행위 예방 안내</title>
+      <title>[관곡초등학교/가정통신문(교육청)] 픽시자전거 위험행위 예방 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1515205</link>
-      <description>게시판: 가정통신문(교육청) | 등록일: 2026-04-16</description>
-      <guid isPermaLink="false">50b4fd327a5b3ab6e290a9cea43d1c9c</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-04-16</description>
+      <guid isPermaLink="false">786a4f21fff325363a844825d9615a26</guid>
       <pubDate>2026-04-16</pubDate>
     </item>
     <item>
-      <title>[가정통신문(교육청)] 2026년 청소년방송 영상제작 피드백 플립러닝 교육 상반기 신청 안내</title>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026년 청소년방송 영상제작 피드백 플립러닝 교육 상반기 신청 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1515123</link>
-      <description>게시판: 가정통신문(교육청) | 등록일: 2026-04-15</description>
-      <guid isPermaLink="false">d4bf8a34b703e4921b12e3dd77363106</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-04-15</description>
+      <guid isPermaLink="false">6d84439bc617cdea8c43c8aff8a4c3b2</guid>
       <pubDate>2026-04-15</pubDate>
     </item>
     <item>
-      <title>[가정통신문(교육청)] 기후에너지환경부 소등행사 안내</title>
+      <title>[관곡초등학교/가정통신문(교육청)] 기후에너지환경부 소등행사 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1515116</link>
-      <description>게시판: 가정통신문(교육청) | 등록일: 2026-04-15</description>
-      <guid isPermaLink="false">ba6cfde2433c5cb616ced3c5c38908c8</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-04-15</description>
+      <guid isPermaLink="false">463f86d4517cd387b158a859e4480e25</guid>
       <pubDate>2026-04-15</pubDate>
     </item>
     <item>
-      <title>[가정통신문(교육청)] 2026 학부모 교육 홍보</title>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026 학부모 교육 홍보</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1515111</link>
-      <description>게시판: 가정통신문(교육청) | 등록일: 2026-04-15</description>
-      <guid isPermaLink="false">17b895662b42dcadfd1016cc678f0d63</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-04-15</description>
+      <guid isPermaLink="false">50e58b55502387946360a7c7b597017d</guid>
       <pubDate>2026-04-15</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2026 관곡초등학교 학생생활규정 13차 개정</title>
+      <title>[관곡초등학교/공지사항] 2026 관곡초등학교 학생생활규정 13차 개정</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1514678</link>
-      <description>게시판: 공지사항 | 등록일: 2026-04-14</description>
-      <guid isPermaLink="false">2eb10788f6c979e3ed47aafa39c3a8f0</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-04-14</description>
+      <guid isPermaLink="false">1cf4caf8dc76c9f196eb1578a14031ca</guid>
       <pubDate>2026-04-14</pubDate>
     </item>
     <item>
-      <title>[학교생활인권규정] 2026 관곡초등학교 학생생활규정 13차 개정</title>
+      <title>[관곡초등학교/학교생활인권규정] 2026 관곡초등학교 학생생활규정 13차 개정</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11844&amp;nttSn=1514673</link>
-      <description>게시판: 학교생활인권규정 | 등록일: 2026-04-14</description>
-      <guid isPermaLink="false">0d77002ca10eb7d58c65b4977083c246</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교생활인권규정 | 등록일: 2026-04-14</description>
+      <guid isPermaLink="false">60dd3584bd422e9b47b19e720fdb56f2</guid>
       <pubDate>2026-04-14</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 노동절(5. 1.) 공휴일 지정에 따른 학사일정 변경 안내</title>
+      <title>[관곡초등학교/공지사항] 2026 관곡초등학교 학생생활규정 13차 개정</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1514678</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-04-14</description>
+      <guid isPermaLink="false">bc06dee37d7a8eff86fb98699f3cb1cb</guid>
+      <pubDate>2026-04-14</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교생활인권규정] 2026 관곡초등학교 학생생활규정 13차 개정</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11844&amp;nttSn=1514673</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교생활인권규정 | 등록일: 2026-04-14</description>
+      <guid isPermaLink="false">0e5fc42e7e69648b8eb8c26a6e402cbd</guid>
+      <pubDate>2026-04-14</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문] 노동절(5. 1.) 공휴일 지정에 따른 학사일정 변경 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1513830</link>
-      <description>게시판: 가정통신문 | 등록일: 2026-04-13</description>
-      <guid isPermaLink="false">2a001106cbbb12958b7731e50376f802</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-04-13</description>
+      <guid isPermaLink="false">06c65d4ab4d37dce89c1aaaf8a914b04</guid>
       <pubDate>2026-04-13</pubDate>
     </item>
     <item>
-      <title>[가정통신문(교육청)] 자녀와 함께하는 SW‧AI교육(4월, 고양) 신청 안내(초/중)</title>
+      <title>[관곡초등학교/가정통신문(교육청)] 자녀와 함께하는 SW‧AI교육(4월, 고양) 신청 안내(초/중)</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1514317</link>
-      <description>게시판: 가정통신문(교육청) | 등록일: 2026-04-13</description>
-      <guid isPermaLink="false">d91fd93e92c0abbe54dbeda5fb937579</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-04-13</description>
+      <guid isPermaLink="false">91b61eeb70e4668dcac4faaf9b151ffa</guid>
       <pubDate>2026-04-13</pubDate>
     </item>
     <item>
-      <title>[가정통신문(교육청)] 2026년 학생건강증진센터 학부모 대상 온라인 연수가 켜지는 날 '경기건강ON스쿨' 참여 안내 증</title>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026년 학생건강증진센터 학부모 대상 온라인 연수가 켜지는 날 '경기건강ON스쿨' 참여 안내 증</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1514308</link>
-      <description>게시판: 가정통신문(교육청) | 등록일: 2026-04-13</description>
-      <guid isPermaLink="false">53099fc57d3549e406b6730a94623bba</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-04-13</description>
+      <guid isPermaLink="false">72b693758bccadfecdcca7ffe1fc60ee</guid>
       <pubDate>2026-04-13</pubDate>
     </item>
     <item>
-      <title>[예산결산공개] 2025회계년도 관곡초등학교 발전기금 회계 결산서(해당없음)</title>
+      <title>[관곡초등학교/예산결산공개] 2025회계년도 관곡초등학교 발전기금 회계 결산서(해당없음)</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1514203</link>
-      <description>게시판: 예산결산공개 | 등록일: 2026-04-13</description>
-      <guid isPermaLink="false">dc719cec6541e0f36f3dc31879c3f423</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2026-04-13</description>
+      <guid isPermaLink="false">a6f32927e713b5f2ba3970521bb77b5f</guid>
       <pubDate>2026-04-13</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 2,3,5,6학년 학생 소변 검사 안내</title>
+      <title>[관곡초등학교/가정통신문] 노동절(5. 1.) 공휴일 지정에 따른 학사일정 변경 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1513830</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-04-13</description>
+      <guid isPermaLink="false">44c3da3fa9878c13b4fe8d176d4f558a</guid>
+      <pubDate>2026-04-13</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/예산결산공개] 2025회계년도 관곡초등학교 발전기금 회계 결산서(해당없음)</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1514203</link>
+      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2026-04-13</description>
+      <guid isPermaLink="false">86ac8773713d10a57e8c8776bcdd2ca5</guid>
+      <pubDate>2026-04-13</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문] 2,3,5,6학년 학생 소변 검사 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1513067</link>
-      <description>게시판: 가정통신문 | 등록일: 2026-04-09</description>
-      <guid isPermaLink="false">7971405d5f001e9e996d4e1075d9bcb4</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-04-09</description>
+      <guid isPermaLink="false">b05d8e3455a4872cf27a5885a7befbda</guid>
       <pubDate>2026-04-09</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(운영)] 2026학년도 제1회 학교운영위원회 심의 결과 보고</title>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2026학년도 제1회 학교운영위원회 심의 결과 보고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1513131</link>
-      <description>게시판: 학교운영위원회(운영) | 등록일: 2026-04-09</description>
-      <guid isPermaLink="false">d23b256c36da745a90168ed0adf70055</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2026-04-09</description>
+      <guid isPermaLink="false">4d40286acee4442d31c089b4859eb538</guid>
       <pubDate>2026-04-09</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(구성)] 학교운영위원회 구성 현황</title>
+      <title>[관곡초등학교/학교운영위원회(구성)] 학교운영위원회 구성 현황</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11852&amp;nttSn=1512965</link>
-      <description>게시판: 학교운영위원회(구성) | 등록일: 2026-04-09</description>
-      <guid isPermaLink="false">ff27d09243f86d826a5031946e9b8255</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(구성) | 등록일: 2026-04-09</description>
+      <guid isPermaLink="false">9abff464b9d0ba2ac1c3e0cb98646550</guid>
       <pubDate>2026-04-09</pubDate>
     </item>
     <item>
-      <title>[예산결산공개] 2026학년도 관곡초학교회계 제1차 추경예산서</title>
+      <title>[관곡초등학교/예산결산공개] 2026학년도 관곡초학교회계 제1차 추경예산서</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1512948</link>
-      <description>게시판: 예산결산공개 | 등록일: 2026-04-09</description>
-      <guid isPermaLink="false">b49106208dc9647e8710ecad53d9aea4</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2026-04-09</description>
+      <guid isPermaLink="false">eb42b4d2458963fd5d6cc13adc517e4b</guid>
       <pubDate>2026-04-09</pubDate>
     </item>
     <item>
-      <title>[예산결산공개] 2025학년도 관곡초등학교회계 결산서</title>
+      <title>[관곡초등학교/예산결산공개] 2025학년도 관곡초등학교회계 결산서</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1512947</link>
-      <description>게시판: 예산결산공개 | 등록일: 2026-04-09</description>
-      <guid isPermaLink="false">058185f2a0f3c0c26200f49b0279ac7a</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2026-04-09</description>
+      <guid isPermaLink="false">fb75cd65b51a4ad565b1d27b294310d0</guid>
       <pubDate>2026-04-09</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 1회용품 사용 줄이기 안내</title>
+      <title>[관곡초등학교/가정통신문] 2,3,5,6학년 학생 소변 검사 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1513067</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-04-09</description>
+      <guid isPermaLink="false">2fb01fef98728a06a73e7c9088814020</guid>
+      <pubDate>2026-04-09</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2026학년도 제1회 학교운영위원회 심의 결과 보고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1513131</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2026-04-09</description>
+      <guid isPermaLink="false">778d794b79a521b2d3e4f5c0a0893dfe</guid>
+      <pubDate>2026-04-09</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(구성)] 학교운영위원회 구성 현황</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11852&amp;nttSn=1512965</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(구성) | 등록일: 2026-04-09</description>
+      <guid isPermaLink="false">68d5df9d458a70450da67b380e4ed687</guid>
+      <pubDate>2026-04-09</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/예산결산공개] 2026학년도 관곡초학교회계 제1차 추경예산서</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1512948</link>
+      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2026-04-09</description>
+      <guid isPermaLink="false">10862882ab63880c553d212f991082bd</guid>
+      <pubDate>2026-04-09</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/예산결산공개] 2025학년도 관곡초등학교회계 결산서</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1512947</link>
+      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2026-04-09</description>
+      <guid isPermaLink="false">fc6822d5759876af7ce443dea0033689</guid>
+      <pubDate>2026-04-09</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문] 1회용품 사용 줄이기 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1512689</link>
-      <description>게시판: 가정통신문 | 등록일: 2026-04-08</description>
-      <guid isPermaLink="false">699e1551fe390d67249734e27c0aef0b</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-04-08</description>
+      <guid isPermaLink="false">1b878358191900949b30ee3f0b1883d6</guid>
       <pubDate>2026-04-08</pubDate>
     </item>
     <item>
-      <title>[학교생활인권규정] 2026학년도 학칙에 관한 특례 운영계획</title>
+      <title>[관곡초등학교/학교생활인권규정] 2026학년도 학칙에 관한 특례 운영계획</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11844&amp;nttSn=1512675</link>
-      <description>게시판: 학교생활인권규정 | 등록일: 2026-04-08</description>
-      <guid isPermaLink="false">1efa82cc42c0adf193be3925f2642a77</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교생활인권규정 | 등록일: 2026-04-08</description>
+      <guid isPermaLink="false">56100bc2bed7df6771d5323c96bdb225</guid>
       <pubDate>2026-04-08</pubDate>
     </item>
     <item>
-      <title>[희망꿈터소식] 추천 그림책 목록</title>
+      <title>[관곡초등학교/가정통신문] 1회용품 사용 줄이기 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1512689</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-04-08</description>
+      <guid isPermaLink="false">cc0f9004c91f1753141ba7311f474a29</guid>
+      <pubDate>2026-04-08</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교생활인권규정] 2026학년도 학칙에 관한 특례 운영계획</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11844&amp;nttSn=1512675</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교생활인권규정 | 등록일: 2026-04-08</description>
+      <guid isPermaLink="false">e2c5f07dcb8a96501cb8e9cb80a2e8b4</guid>
+      <pubDate>2026-04-08</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/희망꿈터소식] 추천 그림책 목록</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1512217</link>
-      <description>게시판: 희망꿈터소식 | 등록일: 2026-04-07</description>
-      <guid isPermaLink="false">c1975626f58e5d5e3e41589e10f87b29</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-04-07</description>
+      <guid isPermaLink="false">7570ca85866850de01f8d07e20136334</guid>
       <pubDate>2026-04-07</pubDate>
     </item>
     <item>
-      <title>[희망꿈터소식] 월별 책소개_4월</title>
+      <title>[관곡초등학교/희망꿈터소식] 추천 그림책 목록</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1512217</link>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-04-07</description>
+      <guid isPermaLink="false">927a42c6dbdeb9b043f9bc08c7991ee3</guid>
+      <pubDate>2026-04-07</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/희망꿈터소식] 월별 책소개_4월</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1511092</link>
-      <description>게시판: 희망꿈터소식 | 등록일: 2026-04-03</description>
-      <guid isPermaLink="false">6d12a5f51301220ec53e9599b2336fc2</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-04-03</description>
+      <guid isPermaLink="false">beaa386b36c593d0a6300f36dad1f1c4</guid>
       <pubDate>2026-04-03</pubDate>
     </item>
     <item>
-      <title>[보건정보실] 관곡 4월 보건소식지</title>
+      <title>[관곡초등학교/희망꿈터소식] 월별 책소개_4월</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1511092</link>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-04-03</description>
+      <guid isPermaLink="false">952cd459714293b1ba54e5002c1d39de</guid>
+      <pubDate>2026-04-03</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/보건정보실] 관곡 4월 보건소식지</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1510156</link>
-      <description>게시판: 보건정보실 | 등록일: 2026-04-01</description>
-      <guid isPermaLink="false">4b56687d5c11c9b4af10c9a7d0c42c1f</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2026-04-01</description>
+      <guid isPermaLink="false">cf10f7176becb8837afc7fe683a52505</guid>
       <pubDate>2026-04-01</pubDate>
     </item>
     <item>
-      <title>[희망꿈터소식] 4월 소식지</title>
+      <title>[관곡초등학교/희망꿈터소식] 4월 소식지</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1510400</link>
-      <description>게시판: 희망꿈터소식 | 등록일: 2026-04-01</description>
-      <guid isPermaLink="false">cecbef1f27b3e274f276ef8ccf15a5aa</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-04-01</description>
+      <guid isPermaLink="false">f7988a5f2021a7a54244a3d8e6ae60b3</guid>
       <pubDate>2026-04-01</pubDate>
     </item>
     <item>
-      <title>[급식정보실] 2026년 4월 예정식단 및 영양소식</title>
+      <title>[관곡초등학교/보건정보실] 관곡 4월 보건소식지</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1510156</link>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2026-04-01</description>
+      <guid isPermaLink="false">32c613050f29f5f7fb232544180b3a45</guid>
+      <pubDate>2026-04-01</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/희망꿈터소식] 4월 소식지</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1510400</link>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-04-01</description>
+      <guid isPermaLink="false">c074a685f4dc5d69b9a77af41e00a904</guid>
+      <pubDate>2026-04-01</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/급식정보실] 2026년 4월 예정식단 및 영양소식</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1509374</link>
-      <description>게시판: 급식정보실 | 등록일: 2026-03-30</description>
-      <guid isPermaLink="false">efdbe9066b68c62dfd1d5f35e1390277</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2026-03-30</description>
+      <guid isPermaLink="false">1035323d42b8dc34d67f154733f38d32</guid>
       <pubDate>2026-03-30</pubDate>
     </item>
     <item>
-      <title>[급식정보실] 2026년 4월 학교급식 영양표시제 및 원산지 안내</title>
+      <title>[관곡초등학교/급식정보실] 2026년 4월 학교급식 영양표시제 및 원산지 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1509366</link>
-      <description>게시판: 급식정보실 | 등록일: 2026-03-30</description>
-      <guid isPermaLink="false">d1ded9400cb9bc6936ac9fc391fdb54f</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2026-03-30</description>
+      <guid isPermaLink="false">3afceba1fa6787db08889f0166ec4708</guid>
       <pubDate>2026-03-30</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(운영)] 2026학년도 제1회 학교운영위원회 회의 개최 공고</title>
+      <title>[관곡초등학교/급식정보실] 2026년 4월 예정식단 및 영양소식</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1509374</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2026-03-30</description>
+      <guid isPermaLink="false">2d596b8431dabc18f25a0004d699e05d</guid>
+      <pubDate>2026-03-30</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/급식정보실] 2026년 4월 학교급식 영양표시제 및 원산지 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1509366</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2026-03-30</description>
+      <guid isPermaLink="false">d83ff0e5d2938f336d1a5db8b14e2c19</guid>
+      <pubDate>2026-03-30</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2026학년도 제1회 학교운영위원회 회의 개최 공고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1508674</link>
-      <description>게시판: 학교운영위원회(운영) | 등록일: 2026-03-27</description>
-      <guid isPermaLink="false">4a04721879e131894950feeee8eb9fb2</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2026-03-27</description>
+      <guid isPermaLink="false">15c7db6d3af054a8253153e82e33c644</guid>
       <pubDate>2026-03-27</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(구성)] 제25기 관곡학교운영위원회 지역위원 당선자 공고</title>
+      <title>[관곡초등학교/학교운영위원회(구성)] 제25기 관곡학교운영위원회 지역위원 당선자 공고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11852&amp;nttSn=1508379</link>
-      <description>게시판: 학교운영위원회(구성) | 등록일: 2026-03-27</description>
-      <guid isPermaLink="false">a6e55202a39a7ee64c00475c6f7316d5</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(구성) | 등록일: 2026-03-27</description>
+      <guid isPermaLink="false">ba05430d927ecd10ed0299b1b31f91b1</guid>
       <pubDate>2026-03-27</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2026학년도 1학기 교사별 평가계획</title>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2026학년도 제1회 학교운영위원회 회의 개최 공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1508674</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2026-03-27</description>
+      <guid isPermaLink="false">a7dd6f756e1e726987dd31ca511d0847</guid>
+      <pubDate>2026-03-27</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(구성)] 제25기 관곡학교운영위원회 지역위원 당선자 공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11852&amp;nttSn=1508379</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(구성) | 등록일: 2026-03-27</description>
+      <guid isPermaLink="false">527e90f54f5bef0da2ff7a5945788ea3</guid>
+      <pubDate>2026-03-27</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] 2026학년도 1학기 교사별 평가계획</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1508233</link>
-      <description>게시판: 공지사항 | 등록일: 2026-03-26</description>
-      <guid isPermaLink="false">24c480d775f840e58d63745cf792d72a</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-03-26</description>
+      <guid isPermaLink="false">91fc32326338ea7d8db2b84ef2cb7329</guid>
       <pubDate>2026-03-26</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2026학년도 기초학력 협력강사 채용 공고</title>
+      <title>[관곡초등학교/공지사항] 2026학년도 기초학력 협력강사 채용 공고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1508080</link>
-      <description>게시판: 공지사항 | 등록일: 2026-03-26</description>
-      <guid isPermaLink="false">e2c20c34810cac99de2fc9de4f00d243</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-03-26</description>
+      <guid isPermaLink="false">36a5f4c8acea8d1a0c346876a80d4292</guid>
       <pubDate>2026-03-26</pubDate>
     </item>
     <item>
-      <title>[희망꿈터소식] 3월 소식지</title>
+      <title>[관곡초등학교/공지사항] 2026학년도 1학기 교사별 평가계획</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1508233</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-03-26</description>
+      <guid isPermaLink="false">1aff159fac421cfff62ee5ebf564e807</guid>
+      <pubDate>2026-03-26</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] 2026학년도 기초학력 협력강사 채용 공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1508080</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-03-26</description>
+      <guid isPermaLink="false">d3e530b42fb4f1459e19810a100da550</guid>
+      <pubDate>2026-03-26</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/희망꿈터소식] 3월 소식지</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1507453</link>
-      <description>게시판: 희망꿈터소식 | 등록일: 2026-03-25</description>
-      <guid isPermaLink="false">8d6920bae21220139cd8b49239af6df7</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-03-25</description>
+      <guid isPermaLink="false">d9364bd535f676c60f3b80746ffabdec</guid>
       <pubDate>2026-03-25</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 아토피 천식 안심학교 학부모 대상 알레르기 전문의 온라인 특강 안내</title>
+      <title>[관곡초등학교/희망꿈터소식] 3월 소식지</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1507453</link>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-03-25</description>
+      <guid isPermaLink="false">56d617f9bf5d195ea4b6602f5631bc75</guid>
+      <pubDate>2026-03-25</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문] 아토피 천식 안심학교 학부모 대상 알레르기 전문의 온라인 특강 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1507022</link>
-      <description>게시판: 가정통신문 | 등록일: 2026-03-24</description>
-      <guid isPermaLink="false">c852d18790c55a3c0752edacc263d52c</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-03-24</description>
+      <guid isPermaLink="false">e3bf686b242372aa3e514f04436afc3b</guid>
       <pubDate>2026-03-24</pubDate>
     </item>
     <item>
-      <title>[희망꿈터소식] 추천 그림책 목록</title>
+      <title>[관곡초등학교/희망꿈터소식] 추천 그림책 목록</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1507256</link>
-      <description>게시판: 희망꿈터소식 | 등록일: 2026-03-24</description>
-      <guid isPermaLink="false">a9ee87eb87da87f736d792a1725163e1</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-03-24</description>
+      <guid isPermaLink="false">28fbff84319d45eed93f4bb30ea60244</guid>
       <pubDate>2026-03-24</pubDate>
     </item>
     <item>
-      <title>[희망꿈터소식] 월별 책소개_3월</title>
+      <title>[관곡초등학교/희망꿈터소식] 월별 책소개_3월</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1507255</link>
-      <description>게시판: 희망꿈터소식 | 등록일: 2026-03-24</description>
-      <guid isPermaLink="false">cb7c0b32d16ef88f21c6c5f62f5c9586</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-03-24</description>
+      <guid isPermaLink="false">b679d431e8916b1fee1a6a90fbf72ab8</guid>
       <pubDate>2026-03-24</pubDate>
     </item>
     <item>
-      <title>[공지사항] 관곡초등학교 학생생활규정 13차 개정(안) 의견 수렴 안내</title>
+      <title>[관곡초등학교/가정통신문] 아토피 천식 안심학교 학부모 대상 알레르기 전문의 온라인 특강 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1507022</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-03-24</description>
+      <guid isPermaLink="false">417e311abea8812ab77e18b112e0ddb1</guid>
+      <pubDate>2026-03-24</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/희망꿈터소식] 추천 그림책 목록</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1507256</link>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-03-24</description>
+      <guid isPermaLink="false">963b60f8dc88d7d07b078c9a4b1c340f</guid>
+      <pubDate>2026-03-24</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/희망꿈터소식] 월별 책소개_3월</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1507255</link>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-03-24</description>
+      <guid isPermaLink="false">12b9042d74a5ac8d5f2b22da8059c0a4</guid>
+      <pubDate>2026-03-24</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] 관곡초등학교 학생생활규정 13차 개정(안) 의견 수렴 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1506549</link>
-      <description>게시판: 공지사항 | 등록일: 2026-03-23</description>
-      <guid isPermaLink="false">84a219414eb7319f4f3401e52b4a523f</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-03-23</description>
+      <guid isPermaLink="false">fbaf02c4694547398b60c18d614ea8f8</guid>
       <pubDate>2026-03-23</pubDate>
     </item>
     <item>
-      <title>[영양상담및교육] 알고 먹으면 안전해요 (식품알레르기 함께 알아보기)</title>
+      <title>[관곡초등학교/공지사항] 관곡초등학교 학생생활규정 13차 개정(안) 의견 수렴 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1506549</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-03-23</description>
+      <guid isPermaLink="false">cdb9179517171048772175a4aaab10e5</guid>
+      <pubDate>2026-03-23</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/영양상담및교육] 알고 먹으면 안전해요 (식품알레르기 함께 알아보기)</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11826&amp;nttSn=1506162</link>
-      <description>게시판: 영양상담및교육 | 등록일: 2026-03-20</description>
-      <guid isPermaLink="false">b942b68270f379cb372d8c1c77693228</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 영양상담및교육 | 등록일: 2026-03-20</description>
+      <guid isPermaLink="false">6adb99a025ed9188a7a579cf3de04013</guid>
       <pubDate>2026-03-20</pubDate>
     </item>
     <item>
-      <title>[희망꿈터소식] 2026학년도 1학기 추천도서목록 안내</title>
+      <title>[관곡초등학교/영양상담및교육] 알고 먹으면 안전해요 (식품알레르기 함께 알아보기)</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11826&amp;nttSn=1506162</link>
+      <description>사이트: 관곡초등학교 | 게시판: 영양상담및교육 | 등록일: 2026-03-20</description>
+      <guid isPermaLink="false">5a30983a281285c25b4477f64fef3c34</guid>
+      <pubDate>2026-03-20</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/희망꿈터소식] 2026학년도 1학기 추천도서목록 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1505498</link>
-      <description>게시판: 희망꿈터소식 | 등록일: 2026-03-19</description>
-      <guid isPermaLink="false">3909a2ce6dadcb48619717ced4bc82d1</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-03-19</description>
+      <guid isPermaLink="false">16bac1de0fef48aabad1258fa9fcc7b1</guid>
       <pubDate>2026-03-19</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(구성)] 제25기 학교운영위원회 학부모위원 당선자 공고</title>
+      <title>[관곡초등학교/희망꿈터소식] 2026학년도 1학기 추천도서목록 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1505498</link>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-03-19</description>
+      <guid isPermaLink="false">c8cf2412842c2f10ef78285022f76184</guid>
+      <pubDate>2026-03-19</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(구성)] 제25기 학교운영위원회 학부모위원 당선자 공고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11852&amp;nttSn=1505156</link>
-      <description>게시판: 학교운영위원회(구성) | 등록일: 2026-03-18</description>
-      <guid isPermaLink="false">d48c52675c9828ed80de9a3c04fff56a</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(구성) | 등록일: 2026-03-18</description>
+      <guid isPermaLink="false">889ef6c67f9544932f49004945628ce0</guid>
       <pubDate>2026-03-18</pubDate>
     </item>
     <item>
-      <title>[희망꿈터소식] 학교도서관 도서검색하는 방법 및 안내</title>
+      <title>[관곡초등학교/희망꿈터소식] 학교도서관 도서검색하는 방법 및 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1504811</link>
-      <description>게시판: 희망꿈터소식 | 등록일: 2026-03-18</description>
-      <guid isPermaLink="false">84ff6d1be05d46c1e7e54c1931659fd5</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-03-18</description>
+      <guid isPermaLink="false">d884f7a32cbc0b8dac0c6e96df88cd32</guid>
       <pubDate>2026-03-18</pubDate>
     </item>
     <item>
-      <title>[희망꿈터소식] 2026년 3월 도서관 행사</title>
+      <title>[관곡초등학교/희망꿈터소식] 2026년 3월 도서관 행사</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1504805</link>
-      <description>게시판: 희망꿈터소식 | 등록일: 2026-03-18</description>
-      <guid isPermaLink="false">2be598ba042d012b0823d3ee634feb6b</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-03-18</description>
+      <guid isPermaLink="false">e9d53f6222e70ef1364588c9f7f3f850</guid>
       <pubDate>2026-03-18</pubDate>
     </item>
     <item>
-      <title>[학부모회(운영)] 관곡초등학교 2026학년도 학부모회 임원선출 재공고</title>
+      <title>[관곡초등학교/학교운영위원회(구성)] 제25기 학교운영위원회 학부모위원 당선자 공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11852&amp;nttSn=1505156</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(구성) | 등록일: 2026-03-18</description>
+      <guid isPermaLink="false">c91abe8c3913e21bdd5f1cc3b7f4a3aa</guid>
+      <pubDate>2026-03-18</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/희망꿈터소식] 학교도서관 도서검색하는 방법 및 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1504811</link>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-03-18</description>
+      <guid isPermaLink="false">cdedde12ce662c71a65049c6b8776526</guid>
+      <pubDate>2026-03-18</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/희망꿈터소식] 2026년 3월 도서관 행사</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1504805</link>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-03-18</description>
+      <guid isPermaLink="false">8ef81edc0f85e6ecd48b16a62e596c71</guid>
+      <pubDate>2026-03-18</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학부모회(운영)] 관곡초등학교 2026학년도 학부모회 임원선출 재공고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12494&amp;nttSn=1503624</link>
-      <description>게시판: 학부모회(운영) | 등록일: 2026-03-16</description>
-      <guid isPermaLink="false">843f5a6c51fc5623ff2ad71620a1ae82</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학부모회(운영) | 등록일: 2026-03-16</description>
+      <guid isPermaLink="false">9ae522632856dedee87b867e081aadfa</guid>
       <pubDate>2026-03-16</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 미세먼지 대처요령 및 건강수칙 안내</title>
+      <title>[관곡초등학교/학부모회(운영)] 관곡초등학교 2026학년도 학부모회 임원선출 재공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12494&amp;nttSn=1503624</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학부모회(운영) | 등록일: 2026-03-16</description>
+      <guid isPermaLink="false">85451c63b17dd09d71ae95584bf11f35</guid>
+      <pubDate>2026-03-16</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문] 미세먼지 대처요령 및 건강수칙 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1503122</link>
-      <description>게시판: 가정통신문 | 등록일: 2026-03-13</description>
-      <guid isPermaLink="false">2f15e31e85bd06be999606cec668c2cf</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-03-13</description>
+      <guid isPermaLink="false">8294c02587b3151b2cdcc6374f72a940</guid>
       <pubDate>2026-03-13</pubDate>
     </item>
     <item>
-      <title>[보건정보실] 미세먼지 대처요령 및 건강수칙</title>
+      <title>[관곡초등학교/보건정보실] 미세먼지 대처요령 및 건강수칙</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1503089</link>
-      <description>게시판: 보건정보실 | 등록일: 2026-03-13</description>
-      <guid isPermaLink="false">39925167bb63edd5a4f4e504dafba1c6</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2026-03-13</description>
+      <guid isPermaLink="false">d5098fedfb72928f201ec0513ce156f4</guid>
       <pubDate>2026-03-13</pubDate>
     </item>
     <item>
-      <title>[보건정보실] 관곡 3월 보건 소식지</title>
+      <title>[관곡초등학교/보건정보실] 관곡 3월 보건 소식지</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1503086</link>
-      <description>게시판: 보건정보실 | 등록일: 2026-03-13</description>
-      <guid isPermaLink="false">c12bb0f358955669093243b3c02c11a7</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2026-03-13</description>
+      <guid isPermaLink="false">98914b5a6a31a8171cc45fb20b6a4c9d</guid>
       <pubDate>2026-03-13</pubDate>
     </item>
     <item>
-      <title>[공지사항] ２０２６  교육활동 보호 예방교육 계획</title>
+      <title>[관곡초등학교/가정통신문] 미세먼지 대처요령 및 건강수칙 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1503122</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-03-13</description>
+      <guid isPermaLink="false">2e643285d4b2b2e3b98194b30f63038d</guid>
+      <pubDate>2026-03-13</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/보건정보실] 미세먼지 대처요령 및 건강수칙</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1503089</link>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2026-03-13</description>
+      <guid isPermaLink="false">bc2abc963a778f6770fc2531154aa140</guid>
+      <pubDate>2026-03-13</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/보건정보실] 관곡 3월 보건 소식지</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1503086</link>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2026-03-13</description>
+      <guid isPermaLink="false">04cb1eddcd75dbfcf559df41ccd0db73</guid>
+      <pubDate>2026-03-13</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] ２０２６  교육활동 보호 예방교육 계획</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1502505</link>
-      <description>게시판: 공지사항 | 등록일: 2026-03-12</description>
-      <guid isPermaLink="false">0e1c103d9d3c8bae1e5f6136636600d6</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-03-12</description>
+      <guid isPermaLink="false">2c2362220d0f6aa28521986672e065f5</guid>
       <pubDate>2026-03-12</pubDate>
     </item>
     <item>
-      <title>[학부모회(운영)] 2026학년도 관곡초등학교 학부모회 임원선출 공고</title>
+      <title>[관곡초등학교/학부모회(운영)] 2026학년도 관곡초등학교 학부모회 임원선출 공고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12494&amp;nttSn=1502372</link>
-      <description>게시판: 학부모회(운영) | 등록일: 2026-03-12</description>
-      <guid isPermaLink="false">c45876cc7d169c6fee02696e98d4e670</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학부모회(운영) | 등록일: 2026-03-12</description>
+      <guid isPermaLink="false">e2804c706e508d6a8eb93d9febd7c1e1</guid>
       <pubDate>2026-03-12</pubDate>
     </item>
     <item>
-      <title>[학부모회(운영)] 관곡초등학교 병설유치원 학부모회 규정(2020) 안내</title>
+      <title>[관곡초등학교/공지사항] ２０２６  교육활동 보호 예방교육 계획</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1502505</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-03-12</description>
+      <guid isPermaLink="false">e5d6a90bf8c8e506f05eebae050a4abe</guid>
+      <pubDate>2026-03-12</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학부모회(운영)] 2026학년도 관곡초등학교 학부모회 임원선출 공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12494&amp;nttSn=1502372</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학부모회(운영) | 등록일: 2026-03-12</description>
+      <guid isPermaLink="false">77d3dcb87341e873ca4b5ee4140b99ab</guid>
+      <pubDate>2026-03-12</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학부모회(운영)] 관곡초등학교 병설유치원 학부모회 규정(2020) 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12494&amp;nttSn=1501921</link>
-      <description>게시판: 학부모회(운영) | 등록일: 2026-03-11</description>
-      <guid isPermaLink="false">b5e4432d9981ac70f3a2c20ad2aad04d</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학부모회(운영) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">c269d9a039cd5597cffa90d159267644</guid>
       <pubDate>2026-03-11</pubDate>
     </item>
     <item>
-      <title>[학부모회(운영)] 관곡초등학교 학부모회 규정(2020) 안내</title>
+      <title>[관곡초등학교/학부모회(운영)] 관곡초등학교 학부모회 규정(2020) 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12494&amp;nttSn=1501920</link>
-      <description>게시판: 학부모회(운영) | 등록일: 2026-03-11</description>
-      <guid isPermaLink="false">77366fe357535cc03b92557644ff5d6b</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학부모회(운영) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">70e3dc28378cf2f455005c534b17c11b</guid>
       <pubDate>2026-03-11</pubDate>
     </item>
     <item>
-      <title>[학부모회(운영)] 2026학년도 관곡초등학교 학부모회 총회 개최 공고</title>
+      <title>[관곡초등학교/학부모회(운영)] 2026학년도 관곡초등학교 학부모회 총회 개최 공고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12494&amp;nttSn=1501919</link>
-      <description>게시판: 학부모회(운영) | 등록일: 2026-03-11</description>
-      <guid isPermaLink="false">fa6ff9219393ba0ce0dd2a03ed77a70e</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학부모회(운영) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">ce025b94d7961c0b462b0ee1cea9258a</guid>
       <pubDate>2026-03-11</pubDate>
     </item>
     <item>
-      <title>[학부모회(구성)] 학부모회 구성현황</title>
+      <title>[관곡초등학교/학부모회(구성)] 학부모회 구성현황</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12493&amp;nttSn=1501923</link>
-      <description>게시판: 학부모회(구성) | 등록일: 2026-03-11</description>
-      <guid isPermaLink="false">515357f3d29451453ab60682cd8aa516</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학부모회(구성) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">87af19a1b3932264ed8f92fb6044ab0e</guid>
       <pubDate>2026-03-11</pubDate>
     </item>
     <item>
-      <title>[관곡소식학부모회(소개)] 학부모회란?</title>
+      <title>[관곡초등학교/관곡소식학부모회(소개)] 학부모회란?</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12486&amp;nttSn=1501911</link>
-      <description>게시판: 관곡소식학부모회(소개) | 등록일: 2026-03-11</description>
-      <guid isPermaLink="false">cf5e5ae6a91e300a75b2d33120982f48</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 관곡소식학부모회(소개) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">37190938168d522756f96a506f2df9aa</guid>
       <pubDate>2026-03-11</pubDate>
     </item>
     <item>
-      <title>[관곡소식학부모회(소개)] 경기도교육청 학교 학부모회 설치·운영에 관한 조례 안내</title>
+      <title>[관곡초등학교/관곡소식학부모회(소개)] 경기도교육청 학교 학부모회 설치·운영에 관한 조례 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12486&amp;nttSn=1501900</link>
-      <description>게시판: 관곡소식학부모회(소개) | 등록일: 2026-03-11</description>
-      <guid isPermaLink="false">efec5a89b3c4c8776078fc7d3d14d496</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 관곡소식학부모회(소개) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">d22e9b2ab791577bcb18b5160cb9e272</guid>
       <pubDate>2026-03-11</pubDate>
     </item>
     <item>
-      <title>[관곡소식학부모회(규정)] 관곡초등학교 병설유치원 학부모회 규정(2020) 안내</title>
+      <title>[관곡초등학교/관곡소식학부모회(규정)] 관곡초등학교 병설유치원 학부모회 규정(2020) 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12487&amp;nttSn=1501908</link>
-      <description>게시판: 관곡소식학부모회(규정) | 등록일: 2026-03-11</description>
-      <guid isPermaLink="false">2ffcb97c056a79a7e5f4e2be1db819a9</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 관곡소식학부모회(규정) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">d55c6b93450d8c62ff3fbf798528dab5</guid>
       <pubDate>2026-03-11</pubDate>
     </item>
     <item>
-      <title>[관곡소식학부모회(규정)] 관곡초등학교 학부모회 규정(2020) 안내</title>
+      <title>[관곡초등학교/관곡소식학부모회(규정)] 관곡초등학교 학부모회 규정(2020) 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12487&amp;nttSn=1501907</link>
-      <description>게시판: 관곡소식학부모회(규정) | 등록일: 2026-03-11</description>
-      <guid isPermaLink="false">17121af36440ede261fcc2c925304684</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 관곡소식학부모회(규정) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">110439e18ff9a2982c9e77afd1e1f69c</guid>
       <pubDate>2026-03-11</pubDate>
     </item>
     <item>
-      <title>[관곡소식학부모회(구성)] 학부모회 구성현황</title>
+      <title>[관곡초등학교/관곡소식학부모회(구성)] 학부모회 구성현황</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12488&amp;nttSn=1501913</link>
-      <description>게시판: 관곡소식학부모회(구성) | 등록일: 2026-03-11</description>
-      <guid isPermaLink="false">149cb0102dd8eea69223665c1a64e985</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 관곡소식학부모회(구성) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">a13d073702cb63346fa90284e4274469</guid>
       <pubDate>2026-03-11</pubDate>
     </item>
     <item>
-      <title>[관곡소식학부모회(운영)] 학부모회 운영내용 안내</title>
+      <title>[관곡초등학교/관곡소식학부모회(운영)] 학부모회 운영내용 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12489&amp;nttSn=1501917</link>
-      <description>게시판: 관곡소식학부모회(운영) | 등록일: 2026-03-11</description>
-      <guid isPermaLink="false">1a2d21a8be0b04a93be26f57727dc94d</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 관곡소식학부모회(운영) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">42c82b35e043f4a508a8dc31e1de57db</guid>
       <pubDate>2026-03-11</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 경기도학교안전공제회 2026 학교안전대사 신청 모집 안내</title>
+      <title>[관곡초등학교/학부모회(운영)] 관곡초등학교 병설유치원 학부모회 규정(2020) 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12494&amp;nttSn=1501921</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학부모회(운영) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">7040d77bb7288747886e91bdfe18cf2b</guid>
+      <pubDate>2026-03-11</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학부모회(운영)] 관곡초등학교 학부모회 규정(2020) 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12494&amp;nttSn=1501920</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학부모회(운영) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">26f5720cd411403da7b35a055d92743f</guid>
+      <pubDate>2026-03-11</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학부모회(운영)] 2026학년도 관곡초등학교 학부모회 총회 개최 공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12494&amp;nttSn=1501919</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학부모회(운영) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">a2fc432f76ad53fe7fbb5274dd604d67</guid>
+      <pubDate>2026-03-11</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학부모회(구성)] 학부모회 구성현황</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12493&amp;nttSn=1501923</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학부모회(구성) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">0bf0cd139eae5a4ed277881f7d60cf9c</guid>
+      <pubDate>2026-03-11</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/관곡소식학부모회(소개)] 학부모회란?</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12486&amp;nttSn=1501911</link>
+      <description>사이트: 관곡초등학교 | 게시판: 관곡소식학부모회(소개) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">b49a68edf6d477da30a25c6a2ec8eb01</guid>
+      <pubDate>2026-03-11</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/관곡소식학부모회(소개)] 경기도교육청 학교 학부모회 설치·운영에 관한 조례 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12486&amp;nttSn=1501900</link>
+      <description>사이트: 관곡초등학교 | 게시판: 관곡소식학부모회(소개) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">bd80d92a1a0ba41494e5d92a671d02b3</guid>
+      <pubDate>2026-03-11</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/관곡소식학부모회(규정)] 관곡초등학교 병설유치원 학부모회 규정(2020) 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12487&amp;nttSn=1501908</link>
+      <description>사이트: 관곡초등학교 | 게시판: 관곡소식학부모회(규정) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">25892352715d0ee0bbe9529bb06b25dc</guid>
+      <pubDate>2026-03-11</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/관곡소식학부모회(규정)] 관곡초등학교 학부모회 규정(2020) 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12487&amp;nttSn=1501907</link>
+      <description>사이트: 관곡초등학교 | 게시판: 관곡소식학부모회(규정) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">19dc9e650919899ca6b05afa336a4476</guid>
+      <pubDate>2026-03-11</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/관곡소식학부모회(구성)] 학부모회 구성현황</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12488&amp;nttSn=1501913</link>
+      <description>사이트: 관곡초등학교 | 게시판: 관곡소식학부모회(구성) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">b20d5cb39c823bb7fe63cb28055e86fe</guid>
+      <pubDate>2026-03-11</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/관곡소식학부모회(운영)] 학부모회 운영내용 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12489&amp;nttSn=1501917</link>
+      <description>사이트: 관곡초등학교 | 게시판: 관곡소식학부모회(운영) | 등록일: 2026-03-11</description>
+      <guid isPermaLink="false">9386f83d77d936d94b52e4545b8b325c</guid>
+      <pubDate>2026-03-11</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문] 경기도학교안전공제회 2026 학교안전대사 신청 모집 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1501320</link>
-      <description>게시판: 가정통신문 | 등록일: 2026-03-10</description>
-      <guid isPermaLink="false">ad95013799254498e044aab7a90ca1cf</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-03-10</description>
+      <guid isPermaLink="false">4cd09a4a774fe050667846d53bd2c794</guid>
       <pubDate>2026-03-10</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(구성)] 제25기 관곡학교운영위원회 학부모위원 입후보자 안내(무투표당선)</title>
+      <title>[관곡초등학교/학교운영위원회(구성)] 제25기 관곡학교운영위원회 학부모위원 입후보자 안내(무투표당선)</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11852&amp;nttSn=1501248</link>
-      <description>게시판: 학교운영위원회(구성) | 등록일: 2026-03-10</description>
-      <guid isPermaLink="false">c79e95839658e020764aa96a7652cb44</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(구성) | 등록일: 2026-03-10</description>
+      <guid isPermaLink="false">c2c99725cdc0819bfb07780a3491e944</guid>
       <pubDate>2026-03-10</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(구성)] 제25기 관곡초등학교운영위원회 학부모위원 선출 공고</title>
+      <title>[관곡초등학교/학교운영위원회(구성)] 제25기 관곡초등학교운영위원회 학부모위원 선출 공고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11852&amp;nttSn=1501247</link>
-      <description>게시판: 학교운영위원회(구성) | 등록일: 2026-03-10</description>
-      <guid isPermaLink="false">7510e464ee62db783c27ccfc35248b05</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(구성) | 등록일: 2026-03-10</description>
+      <guid isPermaLink="false">0abb918f784cec2e6ab8eba23500af5a</guid>
       <pubDate>2026-03-10</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(구성)] 2026학년도 제25기 관곡초등학교운영위원회 구성 홍보</title>
+      <title>[관곡초등학교/학교운영위원회(구성)] 2026학년도 제25기 관곡초등학교운영위원회 구성 홍보</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11852&amp;nttSn=1501244</link>
-      <description>게시판: 학교운영위원회(구성) | 등록일: 2026-03-10</description>
-      <guid isPermaLink="false">dd0c8c4affd01e32d075fe18e0dd61d0</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(구성) | 등록일: 2026-03-10</description>
+      <guid isPermaLink="false">4448efa28b62e0c92b46f25362b21640</guid>
       <pubDate>2026-03-10</pubDate>
     </item>
     <item>
-      <title>[행정소식] 2026년 영상정보처리기기(CCTV) 설치 운영 계획 공지</title>
+      <title>[관곡초등학교/가정통신문] 경기도학교안전공제회 2026 학교안전대사 신청 모집 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1501320</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-03-10</description>
+      <guid isPermaLink="false">fdd64e519ef1cf30add867311b1aac72</guid>
+      <pubDate>2026-03-10</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(구성)] 제25기 관곡학교운영위원회 학부모위원 입후보자 안내(무투표당선)</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11852&amp;nttSn=1501248</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(구성) | 등록일: 2026-03-10</description>
+      <guid isPermaLink="false">682f09e00d67a56fd9a3feea43e6ba0a</guid>
+      <pubDate>2026-03-10</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(구성)] 제25기 관곡초등학교운영위원회 학부모위원 선출 공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11852&amp;nttSn=1501247</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(구성) | 등록일: 2026-03-10</description>
+      <guid isPermaLink="false">b6dbeb6ec39a927d9ba003773fb35b17</guid>
+      <pubDate>2026-03-10</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(구성)] 2026학년도 제25기 관곡초등학교운영위원회 구성 홍보</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11852&amp;nttSn=1501244</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(구성) | 등록일: 2026-03-10</description>
+      <guid isPermaLink="false">e2be6732adf4b26e01d4ba4f07118ad1</guid>
+      <pubDate>2026-03-10</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/행정소식] 2026년 영상정보처리기기(CCTV) 설치 운영 계획 공지</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11875&amp;nttSn=1499779</link>
-      <description>게시판: 행정소식 | 등록일: 2026-03-06</description>
-      <guid isPermaLink="false">374e38d35e54cf0dffe9597f32c61e60</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 행정소식 | 등록일: 2026-03-06</description>
+      <guid isPermaLink="false">e6561c43c53d01bd32fa14fe905fdeab</guid>
       <pubDate>2026-03-06</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2026학년도 교육급여 및 교육비 지원 안내</title>
+      <title>[관곡초등학교/행정소식] 2026년 영상정보처리기기(CCTV) 설치 운영 계획 공지</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11875&amp;nttSn=1499779</link>
+      <description>사이트: 관곡초등학교 | 게시판: 행정소식 | 등록일: 2026-03-06</description>
+      <guid isPermaLink="false">d0e12671782e606288950ae5b27f6ed8</guid>
+      <pubDate>2026-03-06</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] 2026학년도 교육급여 및 교육비 지원 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1499255</link>
-      <description>게시판: 공지사항 | 등록일: 2026-03-05</description>
-      <guid isPermaLink="false">0d6dfbdd3018fd9d341d169e1b0f40e4</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-03-05</description>
+      <guid isPermaLink="false">340deab16f64d0caa328d583d14e1b4b</guid>
       <pubDate>2026-03-05</pubDate>
     </item>
     <item>
-      <title>[안전교육] 2026 관곡초등학교 학교 안전 계획</title>
+      <title>[관곡초등학교/안전교육] 2026 관곡초등학교 학교 안전 계획</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11823&amp;nttSn=1498906</link>
-      <description>게시판: 안전교육 | 등록일: 2026-03-05</description>
-      <guid isPermaLink="false">4c19cd983bcf1f4c825180ce0ee329ed</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 안전교육 | 등록일: 2026-03-05</description>
+      <guid isPermaLink="false">5a85b257e5a2d0e0f1e201f58342687d</guid>
       <pubDate>2026-03-05</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 2026년 용인특례시 여성 청소년 생리용품 보편지원 신청 안내</title>
+      <title>[관곡초등학교/공지사항] 2026학년도 교육급여 및 교육비 지원 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1499255</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-03-05</description>
+      <guid isPermaLink="false">3f6b4a9897706f4216045467fd270914</guid>
+      <pubDate>2026-03-05</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/안전교육] 2026 관곡초등학교 학교 안전 계획</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11823&amp;nttSn=1498906</link>
+      <description>사이트: 관곡초등학교 | 게시판: 안전교육 | 등록일: 2026-03-05</description>
+      <guid isPermaLink="false">0cc5848078c11f46acd74a9122539d2d</guid>
+      <pubDate>2026-03-05</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문] 2026년 용인특례시 여성 청소년 생리용품 보편지원 신청 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1497794</link>
-      <description>게시판: 가정통신문 | 등록일: 2026-03-04</description>
-      <guid isPermaLink="false">b51c856e7303d8407f3642bc8dbd691d</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-03-04</description>
+      <guid isPermaLink="false">55291c1faacab81ce6aa170476ca9841</guid>
       <pubDate>2026-03-04</pubDate>
     </item>
     <item>
-      <title>[업무추진비집행현황] 2025학년도 4분기(25.12월~26.02월) 업무추진비 및 예산 집행관련 정보 공개(상품권, 발전기금 내역 포함)</title>
+      <title>[관곡초등학교/업무추진비집행현황] 2025학년도 4분기(25.12월~26.02월) 업무추진비 및 예산 집행관련 정보 공개(상품권, 발전기금 내역 포함)</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11867&amp;nttSn=1498003</link>
-      <description>게시판: 업무추진비집행현황 | 등록일: 2026-03-04</description>
-      <guid isPermaLink="false">e17d1c225bc5a088ebd5402aee240af3</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 업무추진비집행현황 | 등록일: 2026-03-04</description>
+      <guid isPermaLink="false">51f832891ff31217955f0a7b190f029d</guid>
       <pubDate>2026-03-04</pubDate>
     </item>
     <item>
-      <title>[보건정보실] 신학기 감염병 예방 및 관리 안내</title>
+      <title>[관곡초등학교/보건정보실] 신학기 감염병 예방 및 관리 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1497799</link>
-      <description>게시판: 보건정보실 | 등록일: 2026-03-04</description>
-      <guid isPermaLink="false">a96fffc7bcd3031faf274fdcc7ca3cc9</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2026-03-04</description>
+      <guid isPermaLink="false">106581550b8b3b486208f7d361cf9e74</guid>
       <pubDate>2026-03-04</pubDate>
     </item>
     <item>
-      <title>[급식정보실] 2026년 3월 예정식단 및 영양소식</title>
+      <title>[관곡초등학교/가정통신문] 2026년 용인특례시 여성 청소년 생리용품 보편지원 신청 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1497794</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-03-04</description>
+      <guid isPermaLink="false">1746433654e0f6543a5188b3341c7b4b</guid>
+      <pubDate>2026-03-04</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/업무추진비집행현황] 2025학년도 4분기(25.12월~26.02월) 업무추진비 및 예산 집행관련 정보 공개(상품권, 발전기금 내역 포함)</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11867&amp;nttSn=1498003</link>
+      <description>사이트: 관곡초등학교 | 게시판: 업무추진비집행현황 | 등록일: 2026-03-04</description>
+      <guid isPermaLink="false">2319dd9d6d72da8b674f508750ef3977</guid>
+      <pubDate>2026-03-04</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/보건정보실] 신학기 감염병 예방 및 관리 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1497799</link>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2026-03-04</description>
+      <guid isPermaLink="false">2666921be0f43425759a20bb7a2f88b0</guid>
+      <pubDate>2026-03-04</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/급식정보실] 2026년 3월 예정식단 및 영양소식</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1496025</link>
-      <description>게시판: 급식정보실 | 등록일: 2026-02-26</description>
-      <guid isPermaLink="false">12d64ac0372f620b19159df9ab10c432</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2026-02-26</description>
+      <guid isPermaLink="false">8589c5e5bd3c942a16a5899657db0f98</guid>
       <pubDate>2026-02-26</pubDate>
     </item>
     <item>
-      <title>[급식정보실] 2026년 3월 학교급식 영양표시제 및 원산지 안내</title>
+      <title>[관곡초등학교/급식정보실] 2026년 3월 학교급식 영양표시제 및 원산지 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1496024</link>
-      <description>게시판: 급식정보실 | 등록일: 2026-02-26</description>
-      <guid isPermaLink="false">2f17ddf7d0380a216e5a696cddbbdf3b</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2026-02-26</description>
+      <guid isPermaLink="false">dd98ea28c313c5fac15b471b0176cc7d</guid>
       <pubDate>2026-02-26</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2026학년 학생 출결 처리(결석신고서, 학교장허가체험학습신청서 등) 관련 증빙 서류 양식</title>
+      <title>[관곡초등학교/급식정보실] 2026년 3월 예정식단 및 영양소식</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1496025</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2026-02-26</description>
+      <guid isPermaLink="false">dfdc679dcb557737de0f505bd01d7312</guid>
+      <pubDate>2026-02-26</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/급식정보실] 2026년 3월 학교급식 영양표시제 및 원산지 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1496024</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2026-02-26</description>
+      <guid isPermaLink="false">bbda9ba899c58ac81b897a866f061c72</guid>
+      <pubDate>2026-02-26</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] 2026학년 학생 출결 처리(결석신고서, 학교장허가체험학습신청서 등) 관련 증빙 서류 양식</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1495274</link>
-      <description>게시판: 공지사항 | 등록일: 2026-02-25</description>
-      <guid isPermaLink="false">0704d8cf80e7e101c4fd6418be96a29d</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-02-25</description>
+      <guid isPermaLink="false">a0abcb14da12ec7590128557194d121b</guid>
       <pubDate>2026-02-25</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(운영)] 2025학년도 제7회 학교운영위원회 심의 결과 보고</title>
+      <title>[관곡초등학교/공지사항] 2026학년 학생 출결 처리(결석신고서, 학교장허가체험학습신청서 등) 관련 증빙 서류 양식</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1495274</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-02-25</description>
+      <guid isPermaLink="false">44eeb2ce436ce6c51ef8b35db495910e</guid>
+      <pubDate>2026-02-25</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2025학년도 제7회 학교운영위원회 심의 결과 보고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1494609</link>
-      <description>게시판: 학교운영위원회(운영) | 등록일: 2026-02-24</description>
-      <guid isPermaLink="false">2f2fb5138e036d96a36d09c36a51673d</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2026-02-24</description>
+      <guid isPermaLink="false">9c2f81dc7dc1e0b1944c5370f53362f9</guid>
       <pubDate>2026-02-24</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2026학년도 학사일정 안내</title>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2025학년도 제7회 학교운영위원회 심의 결과 보고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1494609</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2026-02-24</description>
+      <guid isPermaLink="false">2f42822ed6d71f8ef28568582cf1201b</guid>
+      <pubDate>2026-02-24</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] 2026학년도 학사일정 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1493792</link>
-      <description>게시판: 공지사항 | 등록일: 2026-02-19</description>
-      <guid isPermaLink="false">289b90bb5c5dbef9f728be41ebcaf048</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-02-19</description>
+      <guid isPermaLink="false">0200764e85824b0d6a83858b66c0f4d1</guid>
       <pubDate>2026-02-19</pubDate>
     </item>
     <item>
-      <title>[예산결산공개] 2026학년도 관곡초등학교회계 본예산서</title>
+      <title>[관곡초등학교/예산결산공개] 2026학년도 관곡초등학교회계 본예산서</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1493826</link>
-      <description>게시판: 예산결산공개 | 등록일: 2026-02-19</description>
-      <guid isPermaLink="false">3b59dec27d440dd980076583e3ea73e4</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2026-02-19</description>
+      <guid isPermaLink="false">314d24e3ed29aec8d5984ec8f3c19b2e</guid>
       <pubDate>2026-02-19</pubDate>
     </item>
     <item>
-      <title>[예산결산공개] 2025학년도 관곡초학교회계 제5차 추경예산서</title>
+      <title>[관곡초등학교/예산결산공개] 2025학년도 관곡초학교회계 제5차 추경예산서</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1493823</link>
-      <description>게시판: 예산결산공개 | 등록일: 2026-02-19</description>
-      <guid isPermaLink="false">c61c87a58570358d270830fef0a8ba69</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2026-02-19</description>
+      <guid isPermaLink="false">2a3a23849d2bf68b2de1c4c921be3086</guid>
       <pubDate>2026-02-19</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(운영)] 2025학년도 제７회 학교운영위원회 회의 개최 공고</title>
+      <title>[관곡초등학교/공지사항] 2026학년도 학사일정 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1493792</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-02-19</description>
+      <guid isPermaLink="false">c3064a740553ec17dc0f2a98f5652fd4</guid>
+      <pubDate>2026-02-19</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/예산결산공개] 2026학년도 관곡초등학교회계 본예산서</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1493826</link>
+      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2026-02-19</description>
+      <guid isPermaLink="false">bf203990ef8d004dac13bd81dde01316</guid>
+      <pubDate>2026-02-19</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/예산결산공개] 2025학년도 관곡초학교회계 제5차 추경예산서</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1493823</link>
+      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2026-02-19</description>
+      <guid isPermaLink="false">3ab1910cf8d255f4f71d45367c455017</guid>
+      <pubDate>2026-02-19</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2025학년도 제７회 학교운영위원회 회의 개최 공고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1492972</link>
-      <description>게시판: 학교운영위원회(운영) | 등록일: 2026-02-10</description>
-      <guid isPermaLink="false">ea747eb61f1ec65b893462f631df64e3</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2026-02-10</description>
+      <guid isPermaLink="false">60af9a5fd9d240f15b2abf768aaeceb6</guid>
       <pubDate>2026-02-10</pubDate>
     </item>
     <item>
-      <title>[학교평가자료실] 2025 학교평가보고서</title>
+      <title>[관곡초등학교/학교평가자료실] 2025 학교평가보고서</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11890&amp;nttSn=1492998</link>
-      <description>게시판: 학교평가자료실 | 등록일: 2026-02-10</description>
-      <guid isPermaLink="false">ba0676c444ee9375f0acca0ae4f2922e</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교평가자료실 | 등록일: 2026-02-10</description>
+      <guid isPermaLink="false">8fb34439a3155a922f9c2e6a176cadb6</guid>
       <pubDate>2026-02-10</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2026학년도 관곡초 국.검(인)정 교과용도서 목록</title>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2025학년도 제７회 학교운영위원회 회의 개최 공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1492972</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2026-02-10</description>
+      <guid isPermaLink="false">68dfe6ec0e082d481adb731685d52160</guid>
+      <pubDate>2026-02-10</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교평가자료실] 2025 학교평가보고서</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11890&amp;nttSn=1492998</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교평가자료실 | 등록일: 2026-02-10</description>
+      <guid isPermaLink="false">c93f9a3b2c75d00cacb3a7f2b971f7fd</guid>
+      <pubDate>2026-02-10</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] 2026학년도 관곡초 국.검(인)정 교과용도서 목록</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1492004</link>
-      <description>게시판: 공지사항 | 등록일: 2026-01-29</description>
-      <guid isPermaLink="false">b34fbfe0b59207139fe68b5141b4fb9d</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-01-29</description>
+      <guid isPermaLink="false">02da24c7d93404adb3f1c337860cfd70</guid>
       <pubDate>2026-01-29</pubDate>
     </item>
     <item>
-      <title>[공지사항] 관곡초 창호교체공사 관련 진행 상황 안내</title>
+      <title>[관곡초등학교/공지사항] 2026학년도 관곡초 국.검(인)정 교과용도서 목록</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1492004</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-01-29</description>
+      <guid isPermaLink="false">af28e4b8e056d4fa5ef5ea4fef3d2ae9</guid>
+      <pubDate>2026-01-29</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] 관곡초 창호교체공사 관련 진행 상황 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1491898</link>
-      <description>게시판: 공지사항 | 등록일: 2026-01-27</description>
-      <guid isPermaLink="false">ebc12dd5a0e62ae7ecbafe6d9fbdc0eb</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-01-27</description>
+      <guid isPermaLink="false">c4c97b8e64d7160c0abe1c42c30fb267</guid>
       <pubDate>2026-01-27</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 2026년 경기도용인교육지원청 학교폭력전담조사관 위촉 공고</title>
+      <title>[관곡초등학교/공지사항] 관곡초 창호교체공사 관련 진행 상황 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1491898</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-01-27</description>
+      <guid isPermaLink="false">24c4e7a1c660c1ecfb1767b063cba971</guid>
+      <pubDate>2026-01-27</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문] 2026년 경기도용인교육지원청 학교폭력전담조사관 위촉 공고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1490985</link>
-      <description>게시판: 가정통신문 | 등록일: 2026-01-13</description>
-      <guid isPermaLink="false">60a961b83642aa27fe0b13661f715d09</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-01-13</description>
+      <guid isPermaLink="false">8ab39f9e56c48a276429938cfbdd8888</guid>
       <pubDate>2026-01-13</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 2026년 경기도용인교육지원청 학교폭력대책심의위원회 위원 위촉 공고</title>
+      <title>[관곡초등학교/가정통신문] 2026년 경기도용인교육지원청 학교폭력대책심의위원회 위원 위촉 공고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1490982</link>
-      <description>게시판: 가정통신문 | 등록일: 2026-01-13</description>
-      <guid isPermaLink="false">9be71d40d259668d3a7bc096bf0ff7f5</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-01-13</description>
+      <guid isPermaLink="false">1a3ee7c558fad8c16b397e6ed751c1cd</guid>
       <pubDate>2026-01-13</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 2025 학부모용 학교폭력 예방교육 소식지 4</title>
+      <title>[관곡초등학교/가정통신문] 2025 학부모용 학교폭력 예방교육 소식지 4</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1490979</link>
-      <description>게시판: 가정통신문 | 등록일: 2026-01-13</description>
-      <guid isPermaLink="false">7f469ff1d4c539392cf4e8028f66cddf</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-01-13</description>
+      <guid isPermaLink="false">3bbe89ea5741a2a0bcef59886cd585f4</guid>
       <pubDate>2026-01-13</pubDate>
     </item>
     <item>
-      <title>[가정통신문] 청소년 사이버 도박 자진신고 기간 운영 안내</title>
+      <title>[관곡초등학교/가정통신문] 청소년 사이버 도박 자진신고 기간 운영 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1490976</link>
-      <description>게시판: 가정통신문 | 등록일: 2026-01-13</description>
-      <guid isPermaLink="false">09c938eabd225f3778d7e177ae994cb0</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-01-13</description>
+      <guid isPermaLink="false">1cdf679709d85e4eb3fe7704d5da361c</guid>
       <pubDate>2026-01-13</pubDate>
     </item>
     <item>
-      <title>[유치원공지사항] 2025학년도 유치원 평가 보고서</title>
+      <title>[관곡초등학교/가정통신문] 2026년 경기도용인교육지원청 학교폭력전담조사관 위촉 공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1490985</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-01-13</description>
+      <guid isPermaLink="false">420a76cbd8076cb620a2c6e1dc40e2bb</guid>
+      <pubDate>2026-01-13</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문] 2026년 경기도용인교육지원청 학교폭력대책심의위원회 위원 위촉 공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1490982</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-01-13</description>
+      <guid isPermaLink="false">2a2efce1805276dbc30b8811fb1dabc3</guid>
+      <pubDate>2026-01-13</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문] 2025 학부모용 학교폭력 예방교육 소식지 4</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1490979</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-01-13</description>
+      <guid isPermaLink="false">e53ff7dbdcd894c4b3de6aa1858d8c3e</guid>
+      <pubDate>2026-01-13</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문] 청소년 사이버 도박 자진신고 기간 운영 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11819&amp;nttSn=1490976</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-01-13</description>
+      <guid isPermaLink="false">eca4e3c94d97e0fa5f59bdb76b64dd31</guid>
+      <pubDate>2026-01-13</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/유치원공지사항] 2025학년도 유치원 평가 보고서</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11855&amp;nttSn=1490332</link>
-      <description>게시판: 유치원공지사항 | 등록일: 2026-01-06</description>
-      <guid isPermaLink="false">2392aa344d1d98c8565a6e663f32e26c</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 유치원공지사항 | 등록일: 2026-01-06</description>
+      <guid isPermaLink="false">a3444dd063755dd823d5eec228671389</guid>
       <pubDate>2026-01-06</pubDate>
     </item>
     <item>
-      <title>[공지사항] 관곡초 창호교체 및 드라이비트 개선공사 안내(2025.12.~2026.6.)</title>
+      <title>[관곡초등학교/유치원공지사항] 2025학년도 유치원 평가 보고서</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11855&amp;nttSn=1490332</link>
+      <description>사이트: 관곡초등학교 | 게시판: 유치원공지사항 | 등록일: 2026-01-06</description>
+      <guid isPermaLink="false">30a126ad0e44df370c85130e1918c75d</guid>
+      <pubDate>2026-01-06</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] 관곡초 창호교체 및 드라이비트 개선공사 안내(2025.12.~2026.6.)</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1489980</link>
-      <description>게시판: 공지사항 | 등록일: 2026-01-05</description>
-      <guid isPermaLink="false">0380c2703f38680321078d5cb2c4baa0</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-01-05</description>
+      <guid isPermaLink="false">83fdc67227a98fae794c982e8eacfd92</guid>
       <pubDate>2026-01-05</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(운영)] 2025학년도 제６회 학교운영위원회 심의 결과 보고</title>
+      <title>[관곡초등학교/공지사항] 관곡초 창호교체 및 드라이비트 개선공사 안내(2025.12.~2026.6.)</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1489980</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-01-05</description>
+      <guid isPermaLink="false">3f32441df4e24da572bc8ec64d3ab3cf</guid>
+      <pubDate>2026-01-05</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2025학년도 제６회 학교운영위원회 심의 결과 보고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1489146</link>
-      <description>게시판: 학교운영위원회(운영) | 등록일: 2025-12-30</description>
-      <guid isPermaLink="false">08f487fee8d716542019786d0b9fc37e</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2025-12-30</description>
+      <guid isPermaLink="false">0d353524443e78a645d527dc671dad17</guid>
       <pubDate>2025-12-30</pubDate>
     </item>
     <item>
-      <title>[공지사항] 2025학년도 정기간행물(잡지) 과월호 무상 배포 안내장</title>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2025학년도 제６회 학교운영위원회 심의 결과 보고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1489146</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2025-12-30</description>
+      <guid isPermaLink="false">a3be0b7fbf5e199aedc7247359eb4bcb</guid>
+      <pubDate>2025-12-30</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] 2025학년도 정기간행물(잡지) 과월호 무상 배포 안내장</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1488876</link>
-      <description>게시판: 공지사항 | 등록일: 2025-12-29</description>
-      <guid isPermaLink="false">784bea7316187d65cd09775f3a0b5ef3</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2025-12-29</description>
+      <guid isPermaLink="false">6196c18ac141400899c695c9f8c4a377</guid>
       <pubDate>2025-12-29</pubDate>
     </item>
     <item>
-      <title>[희망꿈터소식] 2025학년도 겨울방학 학교도서관 장서점검 운영 계획 안내</title>
+      <title>[관곡초등학교/희망꿈터소식] 2025학년도 겨울방학 학교도서관 장서점검 운영 계획 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1488929</link>
-      <description>게시판: 희망꿈터소식 | 등록일: 2025-12-29</description>
-      <guid isPermaLink="false">191fecec34821adf467826c4e3f75b60</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2025-12-29</description>
+      <guid isPermaLink="false">f43604909c5bbe45a9c90dcda0308113</guid>
       <pubDate>2025-12-29</pubDate>
     </item>
     <item>
-      <title>[예산결산공개] 2025학년도 관곡초학교회계 제4차 추경예산서</title>
+      <title>[관곡초등학교/공지사항] 2025학년도 정기간행물(잡지) 과월호 무상 배포 안내장</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1488876</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2025-12-29</description>
+      <guid isPermaLink="false">0a5620e973168581471bf56cced99088</guid>
+      <pubDate>2025-12-29</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/희망꿈터소식] 2025학년도 겨울방학 학교도서관 장서점검 운영 계획 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1488929</link>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2025-12-29</description>
+      <guid isPermaLink="false">970643ccc41e2bc4c5bfc6a9585ddd50</guid>
+      <pubDate>2025-12-29</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/예산결산공개] 2025학년도 관곡초학교회계 제4차 추경예산서</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1488479</link>
-      <description>게시판: 예산결산공개 | 등록일: 2025-12-24</description>
-      <guid isPermaLink="false">c3df8e646614020eb58eaa754cd6af27</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2025-12-24</description>
+      <guid isPermaLink="false">bc2e113f4652abf598d49d3b73f7f308</guid>
       <pubDate>2025-12-24</pubDate>
     </item>
     <item>
-      <title>[유치원공지사항] 2026학년도 유치원 원서</title>
+      <title>[관곡초등학교/예산결산공개] 2025학년도 관곡초학교회계 제4차 추경예산서</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1488479</link>
+      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2025-12-24</description>
+      <guid isPermaLink="false">ebd46da23a1fb1c5d89e127be699ddaa</guid>
+      <pubDate>2025-12-24</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/유치원공지사항] 2026학년도 유치원 원서</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11855&amp;nttSn=1487718</link>
-      <description>게시판: 유치원공지사항 | 등록일: 2025-12-22</description>
-      <guid isPermaLink="false">77b4c694bbbda2e76806f6b63585fb8d</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 유치원공지사항 | 등록일: 2025-12-22</description>
+      <guid isPermaLink="false">6bdda31013f6b65f5547252e87a02c16</guid>
       <pubDate>2025-12-22</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(운영)] 2025학년도 제6회 학교운영위원회 회의 개최 공고</title>
+      <title>[관곡초등학교/유치원공지사항] 2026학년도 유치원 원서</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11855&amp;nttSn=1487718</link>
+      <description>사이트: 관곡초등학교 | 게시판: 유치원공지사항 | 등록일: 2025-12-22</description>
+      <guid isPermaLink="false">15eaf42b5a328bf481a4f81de055f8c3</guid>
+      <pubDate>2025-12-22</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2025학년도 제6회 학교운영위원회 회의 개최 공고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1486554</link>
-      <description>게시판: 학교운영위원회(운영) | 등록일: 2025-12-15</description>
-      <guid isPermaLink="false">eb994bfb8064b8371e03145671a34c08</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2025-12-15</description>
+      <guid isPermaLink="false">9454211a24ee3713af8dd1cec431ee07</guid>
       <pubDate>2025-12-15</pubDate>
     </item>
     <item>
-      <title>[업무추진비집행현황] 2025학년도 3분기(25.9월~25.11월) 업무추진비 및 예산 집행관련 정보 공개(상품권, 발전기금 내역 포함)</title>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2025학년도 제6회 학교운영위원회 회의 개최 공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1486554</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2025-12-15</description>
+      <guid isPermaLink="false">850ab1e5fd3c3dc3661f745e9fed5d77</guid>
+      <pubDate>2025-12-15</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/업무추진비집행현황] 2025학년도 3분기(25.9월~25.11월) 업무추진비 및 예산 집행관련 정보 공개(상품권, 발전기금 내역 포함)</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11867&amp;nttSn=1485557</link>
-      <description>게시판: 업무추진비집행현황 | 등록일: 2025-12-10</description>
-      <guid isPermaLink="false">4a7136f48f743dbcc92c3d06bf672685</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 업무추진비집행현황 | 등록일: 2025-12-10</description>
+      <guid isPermaLink="false">4727cb6fb375011ba3e5a6eacbaea405</guid>
       <pubDate>2025-12-10</pubDate>
     </item>
     <item>
-      <title>[보건정보실] 관곡 12월 보건 소식지</title>
+      <title>[관곡초등학교/업무추진비집행현황] 2025학년도 3분기(25.9월~25.11월) 업무추진비 및 예산 집행관련 정보 공개(상품권, 발전기금 내역 포함)</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11867&amp;nttSn=1485557</link>
+      <description>사이트: 관곡초등학교 | 게시판: 업무추진비집행현황 | 등록일: 2025-12-10</description>
+      <guid isPermaLink="false">7f4541f425c02e406905da7b8c867133</guid>
+      <pubDate>2025-12-10</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/보건정보실] 관곡 12월 보건 소식지</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1483344</link>
-      <description>게시판: 보건정보실 | 등록일: 2025-12-01</description>
-      <guid isPermaLink="false">e34143ac287341f34894439a9ca9b4f5</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2025-12-01</description>
+      <guid isPermaLink="false">b9781283580078bfd1fafa017547f810</guid>
       <pubDate>2025-12-01</pubDate>
     </item>
     <item>
-      <title>[급식정보실] 2025년 12월 예정식단 및 영양소식</title>
+      <title>[관곡초등학교/보건정보실] 관곡 12월 보건 소식지</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1483344</link>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2025-12-01</description>
+      <guid isPermaLink="false">082fac59ac06065db9e70acb40e7fa0a</guid>
+      <pubDate>2025-12-01</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/급식정보실] 2025년 12월 예정식단 및 영양소식</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1482727</link>
-      <description>게시판: 급식정보실 | 등록일: 2025-11-28</description>
-      <guid isPermaLink="false">2744d66d08c5b5b46de806f1bdbad3fb</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
+      <guid isPermaLink="false">b3f25030e824f25ff6b04bf7299e2acf</guid>
       <pubDate>2025-11-28</pubDate>
     </item>
     <item>
-      <title>[급식정보실] 2025년 12월 학교급식 영양표시제 및 원산지 안내</title>
+      <title>[관곡초등학교/급식정보실] 2025년 12월 학교급식 영양표시제 및 원산지 안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1482726</link>
-      <description>게시판: 급식정보실 | 등록일: 2025-11-28</description>
-      <guid isPermaLink="false">3e45574feb9d6ffef02a5f5eed7fca4d</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
+      <guid isPermaLink="false">a6719e3ad8925bbe23b837bcbe3a31b0</guid>
       <pubDate>2025-11-28</pubDate>
     </item>
     <item>
-      <title>[급식정보실] 2025년 4분기 교직원,학부모 영양 연수자료</title>
+      <title>[관곡초등학교/급식정보실] 2025년 4분기 교직원,학부모 영양 연수자료</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1482724</link>
-      <description>게시판: 급식정보실 | 등록일: 2025-11-28</description>
-      <guid isPermaLink="false">430ce9adce96637002d7fee8a12e7232</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
+      <guid isPermaLink="false">fbd6f24dfe42542cec3830459727fd70</guid>
       <pubDate>2025-11-28</pubDate>
     </item>
     <item>
-      <title>[늘봄공지사항] 2025학년도 늘봄학교 하반기 만족도 설문 결과</title>
+      <title>[관곡초등학교/급식정보실] 2025년 12월 예정식단 및 영양소식</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1482727</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
+      <guid isPermaLink="false">740aef0d7bc5332975f0e6b768ec34a5</guid>
+      <pubDate>2025-11-28</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/급식정보실] 2025년 12월 학교급식 영양표시제 및 원산지 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1482726</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
+      <guid isPermaLink="false">ed2bcb3e65bfd373899b71389d889767</guid>
+      <pubDate>2025-11-28</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/급식정보실] 2025년 4분기 교직원,학부모 영양 연수자료</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1482724</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
+      <guid isPermaLink="false">8a262717fc4e75cd67cb0915a56aaed4</guid>
+      <pubDate>2025-11-28</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/늘봄공지사항] 2025학년도 늘봄학교 하반기 만족도 설문 결과</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11897&amp;nttSn=1480542</link>
-      <description>게시판: 늘봄공지사항 | 등록일: 2025-11-18</description>
-      <guid isPermaLink="false">bb884bd5f6339b30e59b5cf71a072e92</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 늘봄공지사항 | 등록일: 2025-11-18</description>
+      <guid isPermaLink="false">389388d91c6c61877e432f107a05a78e</guid>
       <pubDate>2025-11-18</pubDate>
     </item>
     <item>
-      <title>[시설개방현황] 시설개방현황(11.17일자)</title>
+      <title>[관곡초등학교/늘봄공지사항] 2025학년도 늘봄학교 하반기 만족도 설문 결과</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11897&amp;nttSn=1480542</link>
+      <description>사이트: 관곡초등학교 | 게시판: 늘봄공지사항 | 등록일: 2025-11-18</description>
+      <guid isPermaLink="false">e974544dabd58f8c47564e7c5b710a35</guid>
+      <pubDate>2025-11-18</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/시설개방현황] 시설개방현황(11.17일자)</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12497&amp;nttSn=1480219</link>
-      <description>게시판: 시설개방현황 | 등록일: 2025-11-17</description>
-      <guid isPermaLink="false">64e3f006a69c194dfcb15000bdda7329</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 시설개방현황 | 등록일: 2025-11-17</description>
+      <guid isPermaLink="false">168d34b3eaae3413eb280327a35267e4</guid>
       <pubDate>2025-11-17</pubDate>
     </item>
     <item>
-      <title>[유치원공지사항] 관곡초등학교병설유치원 유아모집</title>
+      <title>[관곡초등학교/유치원공지사항] 관곡초등학교병설유치원 유아모집</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11855&amp;nttSn=1480330</link>
-      <description>게시판: 유치원공지사항 | 등록일: 2025-11-17</description>
-      <guid isPermaLink="false">ca8bec2310b4c8f6429dbc4fcee1af01</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 유치원공지사항 | 등록일: 2025-11-17</description>
+      <guid isPermaLink="false">4841ea176022dbd818055c67a15b6ae9</guid>
       <pubDate>2025-11-17</pubDate>
     </item>
     <item>
-      <title>[행정소식] 시청각실 의자 교체에 따른 물품 선정 결과 공개</title>
+      <title>[관곡초등학교/시설개방현황] 시설개방현황(11.17일자)</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=12497&amp;nttSn=1480219</link>
+      <description>사이트: 관곡초등학교 | 게시판: 시설개방현황 | 등록일: 2025-11-17</description>
+      <guid isPermaLink="false">09904d2e448754e179c267e0f182c227</guid>
+      <pubDate>2025-11-17</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/유치원공지사항] 관곡초등학교병설유치원 유아모집</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11855&amp;nttSn=1480330</link>
+      <description>사이트: 관곡초등학교 | 게시판: 유치원공지사항 | 등록일: 2025-11-17</description>
+      <guid isPermaLink="false">608c34a2197f86b25948093bba7f2cca</guid>
+      <pubDate>2025-11-17</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/행정소식] 시청각실 의자 교체에 따른 물품 선정 결과 공개</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11875&amp;nttSn=1479805</link>
-      <description>게시판: 행정소식 | 등록일: 2025-11-13</description>
-      <guid isPermaLink="false">fc831bfa388f932002a032ea110d2961</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 행정소식 | 등록일: 2025-11-13</description>
+      <guid isPermaLink="false">ee85b90cb286ca5f4421dcd72cf758ec</guid>
       <pubDate>2025-11-13</pubDate>
     </item>
     <item>
-      <title>[보건정보실] 관곡 11월 보건 소식지</title>
+      <title>[관곡초등학교/행정소식] 시청각실 의자 교체에 따른 물품 선정 결과 공개</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11875&amp;nttSn=1479805</link>
+      <description>사이트: 관곡초등학교 | 게시판: 행정소식 | 등록일: 2025-11-13</description>
+      <guid isPermaLink="false">9f6c2fcad9b46e751b3b6279be922b9e</guid>
+      <pubDate>2025-11-13</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/보건정보실] 관곡 11월 보건 소식지</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1477551</link>
-      <description>게시판: 보건정보실 | 등록일: 2025-11-03</description>
-      <guid isPermaLink="false">437333b3c3c5faa988c6850c443bcccc</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2025-11-03</description>
+      <guid isPermaLink="false">fb3ffc8705d392456aba95d75a8003b9</guid>
       <pubDate>2025-11-03</pubDate>
     </item>
     <item>
-      <title>[급식정보실] 2025년 11월 예정식단 및 영양소식</title>
+      <title>[관곡초등학교/보건정보실] 관곡 11월 보건 소식지</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1477551</link>
+      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2025-11-03</description>
+      <guid isPermaLink="false">1fe1beac86ee51b59fa56b4e45f02414</guid>
+      <pubDate>2025-11-03</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/급식정보실] 2025년 11월 예정식단 및 영양소식</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1476562</link>
-      <description>게시판: 급식정보실 | 등록일: 2025-10-30</description>
-      <guid isPermaLink="false">607cd70f0a22464d1b75b59ea95a799a</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-10-30</description>
+      <guid isPermaLink="false">6154c5be7e13a029bc4e1aa33c428182</guid>
       <pubDate>2025-10-30</pubDate>
     </item>
     <item>
-      <title>[급식정보실] 2025년 11월 학교급식 원산지 표시 및 영양표시</title>
+      <title>[관곡초등학교/급식정보실] 2025년 11월 학교급식 원산지 표시 및 영양표시</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1476561</link>
-      <description>게시판: 급식정보실 | 등록일: 2025-10-30</description>
-      <guid isPermaLink="false">56288b2ec3026271a5d5d5108adb79c0</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-10-30</description>
+      <guid isPermaLink="false">8dbabde5700be2cb213cbf760569ddf5</guid>
       <pubDate>2025-10-30</pubDate>
     </item>
     <item>
-      <title>[늘봄공지사항] 2025학년도 늘봄학교  하반기 공개수업 일정안내</title>
+      <title>[관곡초등학교/급식정보실] 2025년 11월 예정식단 및 영양소식</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1476562</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-10-30</description>
+      <guid isPermaLink="false">0d301cc8f27553304e49476e2df416c2</guid>
+      <pubDate>2025-10-30</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/급식정보실] 2025년 11월 학교급식 원산지 표시 및 영양표시</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1476561</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-10-30</description>
+      <guid isPermaLink="false">4cd92b7a04e4021485c4ca2baa91413d</guid>
+      <pubDate>2025-10-30</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/늘봄공지사항] 2025학년도 늘봄학교  하반기 공개수업 일정안내</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11897&amp;nttSn=1475505</link>
-      <description>게시판: 늘봄공지사항 | 등록일: 2025-10-27</description>
-      <guid isPermaLink="false">5b75b7ed900345a6cf1618f94ee9a1d3</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 늘봄공지사항 | 등록일: 2025-10-27</description>
+      <guid isPermaLink="false">6044ea766141d1c9db4e4bd312953eb4</guid>
       <pubDate>2025-10-27</pubDate>
     </item>
     <item>
-      <title>[유치원공지사항] 2026학년도 유치원 유아모집 계획</title>
+      <title>[관곡초등학교/늘봄공지사항] 2025학년도 늘봄학교  하반기 공개수업 일정안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11897&amp;nttSn=1475505</link>
+      <description>사이트: 관곡초등학교 | 게시판: 늘봄공지사항 | 등록일: 2025-10-27</description>
+      <guid isPermaLink="false">a54460fab9b78352731120fcf0292f05</guid>
+      <pubDate>2025-10-27</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/유치원공지사항] 2026학년도 유치원 유아모집 계획</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11855&amp;nttSn=1475068</link>
-      <description>게시판: 유치원공지사항 | 등록일: 2025-10-24</description>
-      <guid isPermaLink="false">189768a9dec4d0b2dfacb00a09edf5e0</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 유치원공지사항 | 등록일: 2025-10-24</description>
+      <guid isPermaLink="false">a2fadb17a0ba0bf71770c8514b8bf617</guid>
       <pubDate>2025-10-24</pubDate>
     </item>
     <item>
-      <title>[학교운영위원회(운영)] 2025학년도 제5회 학교운영위원회 심의 결과 보고</title>
+      <title>[관곡초등학교/유치원공지사항] 2026학년도 유치원 유아모집 계획</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11855&amp;nttSn=1475068</link>
+      <description>사이트: 관곡초등학교 | 게시판: 유치원공지사항 | 등록일: 2025-10-24</description>
+      <guid isPermaLink="false">72659162699410390c784bb1d7a6c9e1</guid>
+      <pubDate>2025-10-24</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2025학년도 제5회 학교운영위원회 심의 결과 보고</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1474207</link>
-      <description>게시판: 학교운영위원회(운영) | 등록일: 2025-10-22</description>
-      <guid isPermaLink="false">b23b0118a510f7f33a8daf4d93d5f3be</guid>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2025-10-22</description>
+      <guid isPermaLink="false">0331e941b94aeac55e602072a38874a7</guid>
+      <pubDate>2025-10-22</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/학교운영위원회(운영)] 2025학년도 제5회 학교운영위원회 심의 결과 보고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1474207</link>
+      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2025-10-22</description>
+      <guid isPermaLink="false">ab6496db9935279fa580a821c022ac24</guid>
       <pubDate>2025-10-22</pubDate>
     </item>
   </channel>
