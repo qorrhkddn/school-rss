@@ -6,8 +6,6 @@ services:
     ports:
       - "5100:5000"
     volumes:
-      - ./config.json:/app/config.json
-      - ./data:/app/data
-      - ./feed.xml:/app/feed.xml
+      - ./:/app
     environment:
       - TZ=Asia/Seoul

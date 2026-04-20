@@ -4,6 +4,8 @@
 import base64
 import json
 import logging
+import os
+import sys
 from pathlib import Path
 from threading import Lock
 
@@ -218,6 +220,72 @@ def test_email():
         return jsonify({"status": "ok"})
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)}), 500
+
+
+@app.route("/api/update", methods=["POST"])
+def update_app():
+    """GitHub에서 최신 코드를 다운받아 파일 교체 후 재시작."""
+    cfg = load_config()
+    gh_cfg = cfg.get("github", {})
+    if not gh_cfg.get("token") or not gh_cfg.get("repo"):
+        return jsonify({"status": "error", "message": "GitHub 설정이 필요합니다"}), 400
+
+    branch = gh_cfg.get("branch", "main")
+    headers = {
+        "Authorization": f"token {gh_cfg['token']}",
+        "Accept": "application/vnd.github.v3+json",
+    }
+
+    # 업데이트 대상 파일 목록
+    update_files = [
+        "app.py", "school_rss.py", "requirements.txt",
+        "Dockerfile", "docker-compose.yml",
+        "index.html", "templates/admin.html",
+    ]
+
+    updated = []
+    errors = []
+    for file_path in update_files:
+        try:
+            url = f"https://api.github.com/repos/{gh_cfg['repo']}/contents/{file_path}?ref={branch}"
+            resp = http_req.get(url, headers=headers, timeout=15)
+            if resp.status_code == 404:
+                continue
+            resp.raise_for_status()
+            content = base64.b64decode(resp.json()["content"])
+            local_path = BASE_DIR / file_path
+            local_path.parent.mkdir(parents=True, exist_ok=True)
+
+            # 변경 있을 때만 덮어쓰기
+            if local_path.exists() and local_path.read_bytes() == content:
+                continue
+
+            local_path.write_bytes(content)
+            updated.append(file_path)
+        except Exception as e:
+            errors.append(f"{file_path}: {e}")
+
+    if not updated:
+        return jsonify({"status": "ok", "message": "이미 최신 버전입니다", "updated": []})
+
+    log.info(f"업데이트 완료: {updated}")
+
+    # 응답을 먼저 보낸 후 재시작 (Docker restart: unless-stopped가 다시 띄워줌)
+    import threading
+    def restart():
+        import time
+        time.sleep(1)
+        log.info("재시작합니다...")
+        os._exit(0)  # Docker가 재시작해줌
+
+    threading.Thread(target=restart, daemon=True).start()
+
+    return jsonify({
+        "status": "ok",
+        "message": f"{len(updated)}개 파일 업데이트, 재시작 중...",
+        "updated": updated,
+        "errors": errors,
+    })
 
 
 @app.route("/api/test-github", methods=["POST"])

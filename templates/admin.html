@@ -78,6 +78,7 @@
       </div>
       <div class="actions">
         <button class="btn btn-primary" onclick="triggerCrawl()">지금 크롤링</button>
+        <button class="btn btn-outline" onclick="updateApp()">코드 업데이트</button>
         <button class="btn btn-outline" onclick="loadStatus()">새로고침</button>
       </div>
     </div>
@@ -358,6 +359,25 @@ async function triggerCrawl() {
   const r = await resp.json();
   toast(`크롤링 완료: ${r.changes}건 변경`);
   loadStatus();
+}
+
+async function updateApp() {
+  if (!confirm('GitHub에서 최신 코드를 받아 업데이트합니다. 서버가 재시작됩니다.')) return;
+  toast('업데이트 중...');
+  try {
+    const resp = await fetch('/api/update', { method: 'POST' });
+    const r = await resp.json();
+    if (r.updated && r.updated.length > 0) {
+      toast(`${r.message} (${r.updated.join(', ')})`);
+      setTimeout(() => { toast('재시작 후 새로고침합니다...'); }, 3000);
+      setTimeout(() => location.reload(), 8000);
+    } else {
+      toast(r.message || '이미 최신 버전입니다');
+    }
+  } catch {
+    toast('업데이트 실패 또는 재시작 중... 잠시 후 새로고침하세요');
+    setTimeout(() => location.reload(), 8000);
+  }
 }
 
 async function testGithub() {
