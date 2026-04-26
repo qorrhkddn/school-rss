@@ -5,7 +5,14 @@
     <link />
     <description>웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 25 Apr 2026 11:48:14 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 11:48:12 +0900</lastBuildDate>
+    <item>
+      <title>[관곡초등학교/급식식단] [페이지 변경] 급식식단</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ad/fm/foodmenu/selectFoodMenuView.do?mi=19574</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식식단 | 등록일: 2026-04-26</description>
+      <guid isPermaLink="false">7ed2c22e30f4a526b13db56737f28286</guid>
+      <pubDate>2026-04-26</pubDate>
+    </item>
     <item>
       <title>[관곡초등학교/학교일정] [페이지 변경] 학교일정</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ps/schdul/selectSchdulMainList.do?mi=19567</link>
@@ -1531,20 +1538,6 @@
       <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-10-30</description>
       <guid isPermaLink="false">4cd92b7a04e4021485c4ca2baa91413d</guid>
       <pubDate>2025-10-30</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/늘봄공지사항] 2025학년도 늘봄학교  하반기 공개수업 일정안내</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11897&amp;nttSn=1475505</link>
-      <description>사이트: 관곡초등학교 | 게시판: 늘봄공지사항 | 등록일: 2025-10-27</description>
-      <guid isPermaLink="false">6044ea766141d1c9db4e4bd312953eb4</guid>
-      <pubDate>2025-10-27</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/늘봄공지사항] 2025학년도 늘봄학교  하반기 공개수업 일정안내</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11897&amp;nttSn=1475505</link>
-      <description>사이트: 관곡초등학교 | 게시판: 늘봄공지사항 | 등록일: 2025-10-27</description>
-      <guid isPermaLink="false">a54460fab9b78352731120fcf0292f05</guid>
-      <pubDate>2025-10-27</pubDate>
     </item>
   </channel>
 </rss>
