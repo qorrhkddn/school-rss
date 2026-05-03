@@ -5,7 +5,14 @@
     <link />
     <description>웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 02 May 2026 20:16:35 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 20:16:34 +0900</lastBuildDate>
+    <item>
+      <title>[관곡초등학교/급식식단] [페이지 변경] 급식식단</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ad/fm/foodmenu/selectFoodMenuView.do?mi=19574</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식식단 | 등록일: 2026-05-03</description>
+      <guid isPermaLink="false">f35e45ab4f780e945d6aa822d689a307</guid>
+      <pubDate>2026-05-03</pubDate>
+    </item>
     <item>
       <title>[관곡초등학교/가정통신문(교육청)] 2026 상반기 온라인 올바른 식사문화 체험교실 참여 모집 안내새로운 글</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1518382</link>
@@ -1706,20 +1713,6 @@
       <description>사이트: 관곡초등학교 | 게시판: 행정소식 | 등록일: 2025-11-13</description>
       <guid isPermaLink="false">9f6c2fcad9b46e751b3b6279be922b9e</guid>
       <pubDate>2025-11-13</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/보건정보실] 관곡 11월 보건 소식지</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1477551</link>
-      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2025-11-03</description>
-      <guid isPermaLink="false">fb3ffc8705d392456aba95d75a8003b9</guid>
-      <pubDate>2025-11-03</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/보건정보실] 관곡 11월 보건 소식지</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1477551</link>
-      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2025-11-03</description>
-      <guid isPermaLink="false">1fe1beac86ee51b59fa56b4e45f02414</guid>
-      <pubDate>2025-11-03</pubDate>
     </item>
   </channel>
 </rss>
