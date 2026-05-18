@@ -5,7 +5,14 @@
     <link />
     <description>웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 17 May 2026 09:10:49 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 09:10:50 +0900</lastBuildDate>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 우리 아이 먹거리, 함께 배우는 친환경 농가 체험 신청 안내새로운 글</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1521768</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-05-18</description>
+      <guid isPermaLink="false">6bb182eb4ebbc1c5ea36390fae47cd18</guid>
+      <pubDate>2026-05-18</pubDate>
+    </item>
     <item>
       <title>[관곡초등학교/급식식단] [페이지 변경] 급식식단</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ad/fm/foodmenu/selectFoodMenuView.do?mi=19574</link>
@@ -2091,20 +2098,6 @@
       <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
       <guid isPermaLink="false">8a262717fc4e75cd67cb0915a56aaed4</guid>
       <pubDate>2025-11-28</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/늘봄공지사항] 2025학년도 늘봄학교 하반기 만족도 설문 결과</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11897&amp;nttSn=1480542</link>
-      <description>사이트: 관곡초등학교 | 게시판: 늘봄공지사항 | 등록일: 2025-11-18</description>
-      <guid isPermaLink="false">389388d91c6c61877e432f107a05a78e</guid>
-      <pubDate>2025-11-18</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/늘봄공지사항] 2025학년도 늘봄학교 하반기 만족도 설문 결과</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11897&amp;nttSn=1480542</link>
-      <description>사이트: 관곡초등학교 | 게시판: 늘봄공지사항 | 등록일: 2025-11-18</description>
-      <guid isPermaLink="false">e974544dabd58f8c47564e7c5b710a35</guid>
-      <pubDate>2025-11-18</pubDate>
     </item>
   </channel>
 </rss>
