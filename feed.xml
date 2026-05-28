@@ -5,12 +5,19 @@
     <link />
     <description>웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 27 May 2026 10:31:57 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 10:32:00 +0900</lastBuildDate>
     <item>
       <title>[관곡초등학교/급식식단] [페이지 변경] 급식식단</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ad/fm/foodmenu/selectFoodMenuView.do?mi=19574</link>
       <description>사이트: 관곡초등학교 | 게시판: 급식식단 | 등록일: 2026-05-27</description>
       <guid isPermaLink="false">7b5506f5b6360057c87de7bf708cb0ea</guid>
+      <pubDate>2026-05-27</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 경기도교육청 '꿈it(잇)다' 시스템 가입 및 사용 안내새로운 글</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1523793</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-05-27</description>
+      <guid isPermaLink="false">d6ed28b14a5d5e16b1f602706d3ae45a</guid>
       <pubDate>2026-05-27</pubDate>
     </item>
     <item>
@@ -39,6 +46,34 @@
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1523445</link>
       <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-05-26</description>
       <guid isPermaLink="false">8455fadb30df39e85dc2378c4076739a</guid>
+      <pubDate>2026-05-26</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] 2026년 용인교육지원청 주민참여예산 지역협의회 개최 및 사전 의견수렴 실시 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1523509</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-05-26</description>
+      <guid isPermaLink="false">65de52f05e77e0e53908cf1bb8a30eba</guid>
+      <pubDate>2026-05-26</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/공지사항] 2026학년도 초등돌봄교실 특기적성 프로그램 강사 추가 채용 공고</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1523320</link>
+      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-05-26</description>
+      <guid isPermaLink="false">367c3a9b20b40dcae053959acfc90f21</guid>
+      <pubDate>2026-05-26</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026년 용인교육지원청 주민참여예산 지역협의회 개최 및 사전 의견수렴 실시 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1523451</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-05-26</description>
+      <guid isPermaLink="false">0bc57f249f7bdcbddaea05059bcd26fe</guid>
+      <pubDate>2026-05-26</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026 학교 밖 지역자원 활용형 온동네 돌봄·교육 프로그램 참여 신청 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1523445</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-05-26</description>
+      <guid isPermaLink="false">bc1bde9427d02bce94cccaa7f8a108f2</guid>
       <pubDate>2026-05-26</pubDate>
     </item>
     <item>
@@ -2245,48 +2280,6 @@
       <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2025-12-01</description>
       <guid isPermaLink="false">082fac59ac06065db9e70acb40e7fa0a</guid>
       <pubDate>2025-12-01</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/급식정보실] 2025년 12월 예정식단 및 영양소식</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1482727</link>
-      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
-      <guid isPermaLink="false">b3f25030e824f25ff6b04bf7299e2acf</guid>
-      <pubDate>2025-11-28</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/급식정보실] 2025년 12월 학교급식 영양표시제 및 원산지 안내</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1482726</link>
-      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
-      <guid isPermaLink="false">a6719e3ad8925bbe23b837bcbe3a31b0</guid>
-      <pubDate>2025-11-28</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/급식정보실] 2025년 4분기 교직원,학부모 영양 연수자료</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1482724</link>
-      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
-      <guid isPermaLink="false">fbd6f24dfe42542cec3830459727fd70</guid>
-      <pubDate>2025-11-28</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/급식정보실] 2025년 12월 예정식단 및 영양소식</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1482727</link>
-      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
-      <guid isPermaLink="false">740aef0d7bc5332975f0e6b768ec34a5</guid>
-      <pubDate>2025-11-28</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/급식정보실] 2025년 12월 학교급식 영양표시제 및 원산지 안내</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1482726</link>
-      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
-      <guid isPermaLink="false">ed2bcb3e65bfd373899b71389d889767</guid>
-      <pubDate>2025-11-28</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/급식정보실] 2025년 4분기 교직원,학부모 영양 연수자료</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11825&amp;nttSn=1482724</link>
-      <description>사이트: 관곡초등학교 | 게시판: 급식정보실 | 등록일: 2025-11-28</description>
-      <guid isPermaLink="false">8a262717fc4e75cd67cb0915a56aaed4</guid>
-      <pubDate>2025-11-28</pubDate>
     </item>
   </channel>
 </rss>
