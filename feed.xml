@@ -5,12 +5,26 @@
     <link />
     <description>웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 30 May 2026 09:44:08 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 09:44:11 +0900</lastBuildDate>
+    <item>
+      <title>[관곡초등학교/급식식단] [페이지 변경] 급식식단</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ad/fm/foodmenu/selectFoodMenuView.do?mi=19574</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식식단 | 등록일: 2026-05-31</description>
+      <guid isPermaLink="false">decc574d3c0040a65ce226455b8d961f</guid>
+      <pubDate>2026-05-31</pubDate>
+    </item>
     <item>
       <title>[관곡초등학교/희망꿈터소식] 6월 소식지새로운 글</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1524583</link>
       <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-05-29</description>
       <guid isPermaLink="false">529b6e3c17ebc469f9a7ce6bd66cf6af</guid>
+      <pubDate>2026-05-29</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/희망꿈터소식] 6월 소식지</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1524583</link>
+      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-05-29</description>
+      <guid isPermaLink="false">3e77fa094ccc9139d8bfc40b0b4af1d7</guid>
       <pubDate>2026-05-29</pubDate>
     </item>
     <item>
@@ -2364,20 +2378,6 @@
       <description>사이트: 관곡초등학교 | 게시판: 업무추진비집행현황 | 등록일: 2025-12-10</description>
       <guid isPermaLink="false">7f4541f425c02e406905da7b8c867133</guid>
       <pubDate>2025-12-10</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/보건정보실] 관곡 12월 보건 소식지</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1483344</link>
-      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2025-12-01</description>
-      <guid isPermaLink="false">b9781283580078bfd1fafa017547f810</guid>
-      <pubDate>2025-12-01</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/보건정보실] 관곡 12월 보건 소식지</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11824&amp;nttSn=1483344</link>
-      <description>사이트: 관곡초등학교 | 게시판: 보건정보실 | 등록일: 2025-12-01</description>
-      <guid isPermaLink="false">082fac59ac06065db9e70acb40e7fa0a</guid>
-      <pubDate>2025-12-01</pubDate>
     </item>
   </channel>
 </rss>
