@@ -5,7 +5,21 @@
     <link />
     <description>웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 20 Jun 2026 02:41:22 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 02:41:22 +0900</lastBuildDate>
+    <item>
+      <title>[관곡초등학교/급식식단] [페이지 변경] 급식식단</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ad/fm/foodmenu/selectFoodMenuView.do?mi=19574</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식식단 | 등록일: 2026-06-21</description>
+      <guid isPermaLink="false">c0045367d18cc497f92db91c4a0a86e0</guid>
+      <pubDate>2026-06-21</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026 청소년방송 미디어교육 운영 안내(안내)새로운 글</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1529737</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-06-20</description>
+      <guid isPermaLink="false">37dd9dd22d887d7fabd9784d9b4c1e37</guid>
+      <pubDate>2026-06-20</pubDate>
+    </item>
     <item>
       <title>[관곡초등학교/가정통신문(교육청)] 2026년 7월  학부모교육 프로그램 수강생 모집 안내새로운 글</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1529650</link>
@@ -18,6 +32,20 @@
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1529510</link>
       <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-06-19</description>
       <guid isPermaLink="false">2060c0b3af37248a27ecc484d097f083</guid>
+      <pubDate>2026-06-19</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026년 7월  학부모교육 프로그램 수강생 모집 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1529650</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-06-19</description>
+      <guid isPermaLink="false">0771796d690184ba528c5b87a00e63b1</guid>
+      <pubDate>2026-06-19</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026년 학생건강증진센터 가족단위 「학생 미디어 건강체험 프로그램」  신청 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1529510</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-06-19</description>
+      <guid isPermaLink="false">b9edef947fc1fffc486774c10bd95820</guid>
       <pubDate>2026-06-19</pubDate>
     </item>
     <item>
@@ -2987,20 +3015,6 @@
       <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2025-12-24</description>
       <guid isPermaLink="false">ebd46da23a1fb1c5d89e127be699ddaa</guid>
       <pubDate>2025-12-24</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/유치원공지사항] 2026학년도 유치원 원서</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11855&amp;nttSn=1487718</link>
-      <description>사이트: 관곡초등학교 | 게시판: 유치원공지사항 | 등록일: 2025-12-22</description>
-      <guid isPermaLink="false">6bdda31013f6b65f5547252e87a02c16</guid>
-      <pubDate>2025-12-22</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/유치원공지사항] 2026학년도 유치원 원서</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11855&amp;nttSn=1487718</link>
-      <description>사이트: 관곡초등학교 | 게시판: 유치원공지사항 | 등록일: 2025-12-22</description>
-      <guid isPermaLink="false">15eaf42b5a328bf481a4f81de055f8c3</guid>
-      <pubDate>2025-12-22</pubDate>
     </item>
   </channel>
 </rss>
