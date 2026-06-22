@@ -5,7 +5,14 @@
     <link />
     <description>웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 22 Jun 2026 02:41:22 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 02:41:22 +0900</lastBuildDate>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026 경기 기초학력 보장 학부모 연수 참여 안내새로운 글</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1529820</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-06-22</description>
+      <guid isPermaLink="false">927a48ebd3149dc15f1d4562743f693b</guid>
+      <pubDate>2026-06-22</pubDate>
+    </item>
     <item>
       <title>[관곡초등학교/급식식단] [페이지 변경] 급식식단</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ad/fm/foodmenu/selectFoodMenuView.do?mi=19574</link>
@@ -3008,20 +3015,6 @@
       <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2025-12-29</description>
       <guid isPermaLink="false">970643ccc41e2bc4c5bfc6a9585ddd50</guid>
       <pubDate>2025-12-29</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/예산결산공개] 2025학년도 관곡초학교회계 제4차 추경예산서</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1488479</link>
-      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2025-12-24</description>
-      <guid isPermaLink="false">bc2e113f4652abf598d49d3b73f7f308</guid>
-      <pubDate>2025-12-24</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/예산결산공개] 2025학년도 관곡초학교회계 제4차 추경예산서</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11864&amp;nttSn=1488479</link>
-      <description>사이트: 관곡초등학교 | 게시판: 예산결산공개 | 등록일: 2025-12-24</description>
-      <guid isPermaLink="false">ebd46da23a1fb1c5d89e127be699ddaa</guid>
-      <pubDate>2025-12-24</pubDate>
     </item>
   </channel>
 </rss>
