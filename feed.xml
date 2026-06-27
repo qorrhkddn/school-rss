@@ -5,7 +5,14 @@
     <link />
     <description>웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 27 Jun 2026 02:41:22 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 02:41:24 +0900</lastBuildDate>
+    <item>
+      <title>[관곡초등학교/급식식단] [페이지 변경] 급식식단</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ad/fm/foodmenu/selectFoodMenuView.do?mi=19574</link>
+      <description>사이트: 관곡초등학교 | 게시판: 급식식단 | 등록일: 2026-06-28</description>
+      <guid isPermaLink="false">900a3f9883dcd16f2bee64c504bb53ec</guid>
+      <pubDate>2026-06-28</pubDate>
+    </item>
     <item>
       <title>[관곡초등학교/가정통신문(교육청)] 『2026년 아동·청소년 양육자 대상 디지털 성폭력 예방교육』신청 안내새로운 글</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1531095</link>
@@ -3078,34 +3085,6 @@
       <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2025-12-30</description>
       <guid isPermaLink="false">a3be0b7fbf5e199aedc7247359eb4bcb</guid>
       <pubDate>2025-12-30</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/공지사항] 2025학년도 정기간행물(잡지) 과월호 무상 배포 안내장</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1488876</link>
-      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2025-12-29</description>
-      <guid isPermaLink="false">6196c18ac141400899c695c9f8c4a377</guid>
-      <pubDate>2025-12-29</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/희망꿈터소식] 2025학년도 겨울방학 학교도서관 장서점검 운영 계획 안내</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1488929</link>
-      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2025-12-29</description>
-      <guid isPermaLink="false">f43604909c5bbe45a9c90dcda0308113</guid>
-      <pubDate>2025-12-29</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/공지사항] 2025학년도 정기간행물(잡지) 과월호 무상 배포 안내장</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11818&amp;nttSn=1488876</link>
-      <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2025-12-29</description>
-      <guid isPermaLink="false">0a5620e973168581471bf56cced99088</guid>
-      <pubDate>2025-12-29</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/희망꿈터소식] 2025학년도 겨울방학 학교도서관 장서점검 운영 계획 안내</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1488929</link>
-      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2025-12-29</description>
-      <guid isPermaLink="false">970643ccc41e2bc4c5bfc6a9585ddd50</guid>
-      <pubDate>2025-12-29</pubDate>
     </item>
   </channel>
 </rss>
