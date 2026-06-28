@@ -5,7 +5,7 @@
     <link />
     <description>웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 28 Jun 2026 02:41:24 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 02:41:23 +0900</lastBuildDate>
     <item>
       <title>[관곡초등학교/급식식단] [페이지 변경] 급식식단</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ad/fm/foodmenu/selectFoodMenuView.do?mi=19574</link>
@@ -3071,20 +3071,6 @@
       <description>사이트: 관곡초등학교 | 게시판: 공지사항 | 등록일: 2026-01-05</description>
       <guid isPermaLink="false">319be2543434a3ba79b88bb7de8576e7</guid>
       <pubDate>2026-01-05</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/학교운영위원회(운영)] 2025학년도 제６회 학교운영위원회 심의 결과 보고</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1489146</link>
-      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2025-12-30</description>
-      <guid isPermaLink="false">0d353524443e78a645d527dc671dad17</guid>
-      <pubDate>2025-12-30</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/학교운영위원회(운영)] 2025학년도 제６회 학교운영위원회 심의 결과 보고</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11849&amp;nttSn=1489146</link>
-      <description>사이트: 관곡초등학교 | 게시판: 학교운영위원회(운영) | 등록일: 2025-12-30</description>
-      <guid isPermaLink="false">a3be0b7fbf5e199aedc7247359eb4bcb</guid>
-      <pubDate>2025-12-30</pubDate>
     </item>
   </channel>
 </rss>
