@@ -5,7 +5,7 @@
     <link />
     <description>웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 04 Oct 2026 00:29:56 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:29:57 +0900</lastBuildDate>
     <item>
       <title>[관곡초등학교/급식식단] [페이지 변경] 급식식단</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ad/fm/foodmenu/selectFoodMenuView.do?mi=19574</link>
@@ -5514,20 +5514,6 @@
       <description>사이트: 관곡초등학교 | 게시판: 가정통신문 | 등록일: 2026-04-08</description>
       <guid isPermaLink="false">6a148544522e36f4e41bae6184981912</guid>
       <pubDate>2026-04-08</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/희망꿈터소식] 추천 그림책 목록</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1512217</link>
-      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-04-07</description>
-      <guid isPermaLink="false">7570ca85866850de01f8d07e20136334</guid>
-      <pubDate>2026-04-07</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/희망꿈터소식] 추천 그림책 목록</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=11900&amp;nttSn=1512217</link>
-      <description>사이트: 관곡초등학교 | 게시판: 희망꿈터소식 | 등록일: 2026-04-07</description>
-      <guid isPermaLink="false">927a42c6dbdeb9b043f9bc08c7991ee3</guid>
-      <pubDate>2026-04-07</pubDate>
     </item>
   </channel>
 </rss>
