@@ -5,7 +5,7 @@
     <link />
     <description>웹사이트 게시판 및 페이지 변경사항</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 23 Oct 2026 15:32:28 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 15:32:17 +0900</lastBuildDate>
     <item>
       <title>[관곡초등학교/가정통신문(교육청)] 2026년 '경기건강ON스쿨' 온라인 교육 안내새로운 글</title>
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1579129</link>
@@ -25,6 +25,27 @@
       <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1578957</link>
       <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-10-23</description>
       <guid isPermaLink="false">d1af3f52b6940d67bfdabac816b8250e</guid>
+      <pubDate>2026-10-23</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026년 '경기건강ON스쿨' 온라인 교육 안내</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1579129</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-10-23</description>
+      <guid isPermaLink="false">92ef57d4ea55fa4fa1aed478060eb461</guid>
+      <pubDate>2026-10-23</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026년 개별 맞춤형 학부모상담 운영 안내(경기도교육청평생학습관)</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1578961</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-10-23</description>
+      <guid isPermaLink="false">dd492ce34b06ac1669f862da18a8cf89</guid>
+      <pubDate>2026-10-23</pubDate>
+    </item>
+    <item>
+      <title>[관곡초등학교/가정통신문(교육청)] 2026 학부모교육 프로그램 수강생 모집 안내(경기도교육청평생학습관)</title>
+      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/na/ntt/selectNttInfo.do?mi=&amp;bbsId=13879&amp;nttSn=1578957</link>
+      <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-10-23</description>
+      <guid isPermaLink="false">e031f9ac597dafb410b8796168945e47</guid>
       <pubDate>2026-10-23</pubDate>
     </item>
     <item>
@@ -6270,13 +6291,6 @@
       <description>사이트: 관곡초등학교 | 게시판: 가정통신문(교육청) | 등록일: 2026-04-27</description>
       <guid isPermaLink="false">3873e4c8c45b2b845cde9a61a265b0c7</guid>
       <pubDate>2026-04-27</pubDate>
-    </item>
-    <item>
-      <title>[관곡초등학교/급식식단] [페이지 변경] 급식식단</title>
-      <link>https://gwan-gok-e.goeyi.kr/gwan-gok-e/ad/fm/foodmenu/selectFoodMenuView.do?mi=19574</link>
-      <description>사이트: 관곡초등학교 | 게시판: 급식식단 | 등록일: 2026-04-26</description>
-      <guid isPermaLink="false">7ed2c22e30f4a526b13db56737f28286</guid>
-      <pubDate>2026-04-26</pubDate>
     </item>
   </channel>
 </rss>
